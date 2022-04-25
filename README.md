@@ -25,15 +25,17 @@ npm - 6.14.8 (по идее установится вместе с node 14.14.0 
     npm run build // собрать лендинг корневой папке
 
     sudo npm i -g live-server // установить live-server
-    live-server // запустить live-server в папке docs
+    live-server // запустить live-server в папке public
     npm run watch // в корневой папке - режим watch
+
 ```
 
-# Библиотеки, которые наши дизайнеры, верстающие лендинги, используют
+# Деплой LP для ревью в GH pages
 
-- AOS (анимация при скролле) - https://michalsnik.github.io/aos/
-- jQuery - используется на большинстве лендингов, которые собираются с Gulp
-- Bootstrap grid - https://getbootstrap.com/docs/4.0/layout/grid/
-- Siema (слайдеры) - https://pawelgrzybek.github.io/siema/ (так же есть несколько лендингов, которые используют slick - https://kenwheeler.github.io/slick/ или swiper - https://swiperjs.com/)
-- Lottie (json анимации) - https://lottiefiles.com
-- Rellax (паралакс) - https://dixonandmoe.com/rellax/
+```
+    npm run deploy // в корневой папке проекта
+```
+
+Деплой происходит из ветки githab-pages из корневой директории.
+
+Финальный вариант кода обязательно закоммитить в master и деплоить только актуальный код во избежание расхождений при передаче лендинга заказчику.
