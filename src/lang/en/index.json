@@ -1,0 +1,64 @@
+{
+  "lang": "en",
+
+  "button": "Try It Free",
+
+  "snippet": {
+    "title": "Semrush: All-in-One Platform for Businesses",
+    "subtitle": "Step into the spotlight with Semrush. Get all the SEO, SMM, and market analysis tools you need to get noticed online.",
+    "pic": "https://mcusercontent.com/8fe644fbaa5ad86caefe1ac33/images/beee80b8-e066-e155-eef6-648c7607e56e.jpg"
+  },
+
+  "main": {
+    "title": "Spotlight On… You! Make Your Business <span>Visible Online</span>",
+    "subtitle": "Manage your SEO, social media, content, and competitive<br> research all on one convenient platform. Create a winning<br> strategy and watch your growth shoot to the stars."
+  },
+
+  "trust": "TRUSTED&nbsp;BY",
+
+  "text-pic": {
+    "title": "<span>How Semrush helps</span><br> businesses big and small",
+
+    "subtitle-1": "Rank high on<br> search engines",
+    "text-1": "Improve your site health and implement an SEO<br> strategy that makes you stand out. Rank high to<br> increase your sales.",
+
+    "subtitle-2": "Expand your<br> audience, not your<br> budget",
+    "text-2": "Make data-driven marketing decisions to efficiently manage your budget and invest in channels that bring the most growth.",
+
+    "subtitle-3": "Stay ahead of your competitors",
+    "text-3": "Reveal your top competitors and spot any changes in<br> their market share over time. Benchmark your own<br> market position against your rivals."
+  },
+
+  "reasons": {
+    "title": "Why Semrush?",
+
+    "subtitle-1": "No experience<br> necessary",
+    "text-1": "With an easy-to-use interface, get into the data right away.",
+
+    "subtitle-2": "Saves time and money",
+    "text-2": "Do SEO, content marketing, advertising, market research, and social media all on one convenient platform.",
+
+    "subtitle-3": "All channels on one dashboard",
+    "text-3": "Rest assured that your online marketing is always on task, even when you’re playing a different role.",
+
+    "subtitle-4": "Global and local insights",
+    "text-4": "From global analysis to ZIP code tracking, gain in-depth insights into what drives consumers so you can stay ahead of the competition.",
+
+    "subtitle-5": "Reliable data",
+    "text-5": "Make business decisions confidently with access to 20B keywords, 43T backlinks, 25B URLs crawled per day, 500TB of raw data, and more."
+  },
+
+  "cta-screen": {
+    "title": "Don’t wait in the wings—<span>grab the spotlight</span> today with Semrush"
+  },
+
+  "footer": {
+    "rights": "All&nbsp;rights&nbsp;reserved.",
+    "legal": "Legal Info",
+    "privacy": "Privacy Policy"
+  },
+  "cookies": {
+    "text": "EN",
+    "button": "EN"
+  }
+}
