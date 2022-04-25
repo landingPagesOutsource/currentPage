@@ -5,8 +5,7 @@ var gulp = require("gulp"),
   autoprefixer = require("gulp-autoprefixer"),
   cleanCSS = require("gulp-clean-css");
 
-const dirName = process.env.PWD.split("/").pop();
-const distPath = `./public/${dirName}/`;
+const distPath = `./docs`;
 
 // localization
 function localization() {

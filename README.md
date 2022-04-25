@@ -25,7 +25,7 @@ npm - 6.14.8 (по идее установится вместе с node 14.14.0 
     npm run build // собрать лендинг корневой папке
 
     sudo npm i -g live-server // установить live-server
-    live-server // запустить live-server в папке public
+    live-server // запустить live-server в папке docs
     npm run watch // в корневой папке - режим watch
 ```
 
