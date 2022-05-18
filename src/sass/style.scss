@@ -8,10 +8,10 @@
 @import"headerfooter";
 
 
-$yellow: #FFFF00;
-$yellow-bg: #FFFF33;
+$yellow: #00FFAA;
+$yellow-bg: #00FFAA;
 $pink: #FF90EB;
-$violet: #820F87;
+$violet: #421983;
 $dark-green: #004F45;
 
 $shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
@@ -63,6 +63,7 @@ a.button {
   padding: 0 70px;
   width: auto;
   max-width: 100%;
+  font-family: "Factor", Arial, sans-serif !important;
   &:hover {color: #fff;}
   @media (min-width: 992px) {
     height: 60px;
@@ -408,19 +409,19 @@ br {
       margin-top: 0px;
       position: relative;
       overflow: hidden;
-      height: 660px;
+      height: 665px;
       background: url(../img/main-img_x1.png);
       background-size: cover;
       &-desktop {
         display: block;
-        height: 660px;
+        height: 665px;
         overflow: hidden;
         img {
-          height: 660px;
+          height: 665px;
           width: auto;
           position: absolute;
           left: 50%;
-          margin-left: -330px;
+          margin-left: -360px;
         }
       }
       &-mob {display: none;}
@@ -699,6 +700,7 @@ br {
       }
     }
     h4 {
+      line-height: 110%;
       @media (min-width: 576px) {
         font-size: 22px;
       }
@@ -709,6 +711,12 @@ br {
       line-height: 1.3;
       font-family: "Factor", Arial, sans-serif;
     }
+    p a,
+    li a {
+      &:hover {
+        text-decoration: underline !important;
+      }
+    }
     a.button {
       background: transparent;
       border: 1px solid #FF622D;
@@ -717,6 +725,7 @@ br {
       padding: 0 20px;
       height: 40px;
       line-height: 40px;
+      
       &:hover {
         background: #E84E0F;
         border: 1px solid #E84E0F;
@@ -919,6 +928,11 @@ br {
       font-size: 18px;
       font-family: "Factor", Arial, sans-serif;
       margin-bottom: 20px;
+      color: #000;
+      a {
+        font-weight: 700;
+        &:hover {text-decoration: underline;}
+      }
       @media (min-width: 992px) {
         font-size: 22px;
        }
@@ -973,6 +987,7 @@ br {
     p {
       color: #fff;
       font-size: 22px;
+      line-height: 124%;
       @media (min-width: 576px) {
         font-size: 28px;
       }
