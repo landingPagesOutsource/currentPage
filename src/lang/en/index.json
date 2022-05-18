@@ -1,60 +1,100 @@
 {
   "lang": "en",
 
-  "button": "Try It Free",
+  "button": "start now",
 
   "snippet": {
-    "title": "Semrush: All-in-One Platform for Businesses",
-    "subtitle": "Step into the spotlight with Semrush. Get all the SEO, SMM, and market analysis tools you need to get noticed online.",
-    "pic": "https://mcusercontent.com/8fe644fbaa5ad86caefe1ac33/images/beee80b8-e066-e155-eef6-648c7607e56e.jpg"
+    "title": "Grow Your Business Online with Semrush",
+    "subtitle": "Help customers find your business first with Semrush. Improve your website, connect with clients, and scope the competition, all in one suite.",
+    "pic": "https://static.semrush.com/file/image/sharing_pictures/all-in-one-local-marketing-solution_EN.png"
   },
 
   "main": {
-    "title": "Spotlight On… You! Make Your Business <span>Visible Online</span> CHECK",
-    "subtitle": "Manage your SEO, social media, content, and competitive<br> research all on one convenient platform. Create a winning<br> strategy and watch your growth shoot to the stars."
+    "title-1_1": "Build your",
+    "title-1_2": "local",
+    "title-1_3": "business",
+    "title-1_4": "local business",
+    "title-2": "WITH OUR ALL&#8209;IN&#8209;ONE<br>MARKETING SUITE",
+    "text": "For everything your business needs to grow, there&#39;s Semrush. Take the guesswork out of online marketing and reach new heights <b>for just $160.</b>",
+    "button": "Start now"
   },
 
-  "trust": "TRUSTED&nbsp;BY",
+  "trusted": {"title": "Trusted by"},
 
-  "text-pic": {
-    "title": "<span>How Semrush helps</span><br> businesses big and small",
+  "benefits": {
+    "title": "Help your customers find&nbsp;you first with Semrush",
 
-    "subtitle-1": "Rank high on<br> search engines",
-    "text-1": "Improve your site health and implement an SEO<br> strategy that makes you stand out. Rank high to<br> increase your sales.",
+    "item-1_title": "Attract more customers with online channels",
+    "item-1_text": "Make more sales and expand your business with a strong online presence.",
 
-    "subtitle-2": "Expand your<br> audience, not your<br> budget",
-    "text-2": "Make data-driven marketing decisions to efficiently manage your budget and invest in channels that bring the most growth.",
+    "item-2_title": "Be the best business in your community",
+    "item-2_text": "Measure yourself against your competitors, uncover their strategy, and get ahead.",
 
-    "subtitle-3": "Stay ahead of your competitors",
-    "text-3": "Reveal your top competitors and spot any changes in<br> their market share over time. Benchmark your own<br> market position against your rivals."
+    "item-3_title": "Market where you need it most",
+    "item-3_text": "Target customers in your community or worldwide with our all-in-one marketing solution."
   },
 
-  "reasons": {
-    "title": "Why Semrush?",
+  "overview": {
+    "title": "Save time and money with&nbsp;Semrush",
+    "subtitle": "We gathered everything you need and automated it for your ease. Set your business up for growth <i>for only $160 per month</i>",
 
-    "subtitle-1": "No experience<br> necessary",
-    "text-1": "With an easy-to-use interface, get into the data right away.",
+    "item-1_title": "Drive your future customers to your doorstep",
+    "item-1_text": "Optimize your Google Business Profile, keep your business listings updated on Google Maps, Yelp, and 70 more local directories, and manage all your online reviews from one convenient place.",
 
-    "subtitle-2": "Saves time and money",
-    "text-2": "Do SEO, content marketing, advertising, market research, and social media all on one convenient platform.",
+    "item-2_title": "Create content that resonates with your customers",
+    "item-2_text": "Discover the most powerful keywords you should target—including the ones your competitors use to win. Then create winning content for your site and climb to the top of the rankings.",
 
-    "subtitle-3": "All channels on one dashboard",
-    "text-3": "Rest assured that your online marketing is always on task, even when you’re playing a different role.",
+    "item-3_title": "Get your name out there with ads that actually deliver",
+    "item-3_text": "Make sure your future customers know your name instead of the competition. Optimize your ad copy to reach the right audiences, spark curiosity in your brand, and increase your ROI.",
 
-    "subtitle-4": "Global and local insights",
-    "text-4": "From global analysis to ZIP code tracking, gain in-depth insights into what drives consumers so you can stay ahead of the competition.",
+    "item-4_title": "Connect with customers on their preferred platforms",
+    "item-4_text": "Use social media to increase brand awareness and build customer relationships. Manage your Facebook, Instagram, Twitter, LinkedIn, Pinterest, and Google Business Profile all together.",
 
-    "subtitle-5": "Reliable data",
-    "text-5": "Make business decisions confidently with access to 20B keywords, 43T backlinks, 25B URLs crawled per day, 500TB of raw data, and more."
+    "button": "START NOW"
   },
 
-  "cta-screen": {
-    "title": "Don’t wait in the wings—<span>grab the spotlight</span> today with Semrush"
+  "cases": {
+    "title": "Small businesses deliver big&nbsp;results with Semrush",
+    
+    "item-1_title": "Local business used Semrush to grow their client base and revenue by 300%",
+    "item-1_text": "Liverpool dental practice Smileworks used Semrush tools to conquer their local rankings, explode their organic traffic, and get more patients in the door.",
+    "item-1_li-1": "<a href='https://www.semrush.com/signup/?src=lp-all-in-one-local-marketing-solution-${{ index.lang }}$&trial=force&redirect_to=%2Flistings-management%2F' class='listings-management_link'>Listings Management</a> enabled Smileworks to manage their business info online and increase their Google Maps listings by 300%",
+    "item-1_li-2": "<a href='https://www.semrush.com/signup/?src=lp-all-in-one-local-marketing-solution-${{ index.lang }}$&trial=force&redirect_to=%2Fanalytics%2Foverview%2F' class='domain-overview_link'>Domain Overview</a> helped them to learn from their biggest local competitors",
+
+    "item-2_title": "Family bakery used Semrush to rank #1 on Google",
+    "item-2_text": "Pastreez, a California-based French bakery, used Semrush digital marketing tools to assess their market, plan their strategy, and supercharge their growth.",
+    "item-2_li-1": "<a href='https://www.semrush.com/signup/?src=lp-all-in-one-local-marketing-solution-${{ index.lang }}$&trial=force&redirect_to=%2Fanalytics%2Fkeywordoverview%2F' class='keyword-overview_link'>Keyword Overview</a> helped Pastreez find and target their biggest revenue-driving keywords",
+    "item-2_li-2": "<a href='https://www.semrush.com/signup/?src=lp-all-in-one-local-marketing-solution-${{ index.lang }}$&trial=force&redirect_to=%2Fanalytics%2Forganic%2F' class='organic-research_link'>Organic Research</a> revealed their competitors’ best keywords, so Pastreez could compete more effectively",
+
+    "item-3_title": "Free fitness site achieved first-ever six figure ad revenue with Semrush",
+    "item-3_text": "Nourish Move Love used Semrush SEO tools to boost organic traffic 150%, revitalize their existing content, and increase ROI.",
+    "item-3_li-1": "<a href='https://www.semrush.com/signup/?src=lp-all-in-one-local-marketing-solution-${{ index.lang }}$&trial=force&redirect_to=%2Fanalytics%2Fkeywordmagic%2F' class='keyword-magic-tool_link'>Keyword Magic Tool</a> helped NML find popular keywords that were overlooked by the fitness industry and rank #1 on Google for them",
+    "item-3_li-2": "<a href='https://www.semrush.com/signup/?src=lp-all-in-one-local-marketing-solution-${{ index.lang }}$&trial=force&redirect_to=%2Fposition-tracking%2F' class='position-tracking_link'>Position Tracking</a> alerted them to performance changes on priority keywords, so that they could easily pivot their strategy"
+  },
+
+  "checks": {
+    "title": "Everything your small business needs to succeed",
+
+    "item-1_title": "Grow at your own&nbsp;pace",
+    "item-1_text": "Growing quickly?<br> Add additional locations for just $40",
+
+    "item-2_title": "Cancel any time",
+    "item-2_text": "Try Semrush today and cancel whenever you wish",
+
+    "item-3_title": "Unlock your expertise",
+    "item-3_text": "Get 24/7 support and a comprehensive knowledge base",
+
+    "button": "Start now"
+  },
+
+  "prefooter": {
+    "title-1": "Build your",
+    "title-2": "local business"
   },
 
   "footer": {
     "rights": "All&nbsp;rights&nbsp;reserved.",
-    "legal": "Legal Info",
+    "legal": "Terms of Use",
     "privacy": "Privacy Policy"
   },
   "cookies": {
@@ -62,3 +102,5 @@
     "button": "EN"
   }
 }
+
+
