@@ -23,6 +23,10 @@ h2 {
   margin: 0 auto 50px;
   font-size: 36px;
   line-height: 110%;
+  span {
+    -webkit-font-feature-settings: 'ss01'on;
+    font-feature-settings: 'ss01'on;
+   }
   &.h2_sub {margin-bottom: 20px;}
   @media (min-width: 560px) {
     font-size: 40px;
@@ -297,6 +301,7 @@ br {
       white-space: nowrap;
       position: relative;
       max-width: none;
+      
       &.desktop {display: none;}
       &.pretitle {
         font-size: 24px;
@@ -309,6 +314,7 @@ br {
         font-size: 20vw;
         left: -10px;
         line-height: 0.6;
+
       }
       @media (min-width: 475px) {
         &.local {
@@ -1036,6 +1042,10 @@ br {
     text-transform: uppercase;
     font-weight: 800;
     font-family: "Factor", arial, sans-serif;
+    span {
+      -webkit-font-feature-settings: 'ss01'on;
+      font-feature-settings: 'ss01'on;
+     }
     &.title-1 {
       font-size: 26px;
       line-height: 1;
@@ -1053,24 +1063,23 @@ br {
       }
     }
     &.title-2 {
-      font-size: 12.3vw;
+      font-size: 11.7vw;
       position: relative;
       left: -5px;
       line-height: 1;
       white-space: nowrap;
-      letter-spacing: -0.05em;
+      letter-spacing: -0.02em;
       @media (min-width: 576px) {
         left: -11px;
       }
       @media (min-width: 992px) {
         left: -12px;
-        font-size: 12.2vw;
       }
       @media (min-width: 1200px) {
         left: -17px;
       }
       @media (min-width: 1440px) {
-        font-size: 176px;
+        font-size: 168px;
         left: -22px;
       }
     }

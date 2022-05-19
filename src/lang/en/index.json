@@ -12,8 +12,8 @@
   "main": {
     "title-1_1": "Build your",
     "title-1_2": "local",
-    "title-1_3": "business",
-    "title-1_4": "local business",
+    "title-1_3": "b<span>u</span>siness",
+    "title-1_4": "local b<span>u</span>siness",
     "title-2": "WITH OUR ALL&#8209;IN&#8209;ONE<br>MARKETING SUITE",
     "text": "For everything your business needs to grow, there&#39;s Semrush. Take the guesswork out of online marketing and reach new heights <b>for just $160.</b>",
     "button": "Start now"
@@ -89,7 +89,7 @@
 
   "prefooter": {
     "title-1": "Build your",
-    "title-2": "local business"
+    "title-2": "local b<span>u</span>siness"
   },
 
   "footer": {
