@@ -403,16 +403,13 @@ br {
       }
     }
     &-desktop {display: none;}
-    @media (min-width: 427px) {
-      margin-top: -100px;
-    }
     @media (min-width: 576px) {
       width: 490px;
       margin-top: -50px;
     }
     @media (min-width: 992px) {
       width: 50%;
-      margin-top: 0px;
+      margin-top: -10px;
       position: relative;
       overflow: hidden;
       height: 665px;
@@ -558,6 +555,9 @@ br {
     h2 {font-size: 40px;}
   }
   @media (min-width: 1200px) {
+    padding: 80px 0 120px;
+  }
+  @media (min-width: 1440px) {
     padding: 230px 0 120px;
   }
 }
