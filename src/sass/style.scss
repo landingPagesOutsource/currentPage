@@ -391,7 +391,8 @@ br {
     margin: 0 auto;
     position: relative;
     margin-top: -30px;
-    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
     height: 360px;
     overflow: hidden;
     display: flex;
@@ -406,6 +407,8 @@ br {
     @media (min-width: 576px) {
       width: 490px;
       margin-top: -50px;
+      margin-left: auto;
+      margin-right: auto;
     }
     @media (min-width: 992px) {
       width: 50%;
