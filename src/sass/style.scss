@@ -550,7 +550,7 @@ br {
   padding: 60px 0;
   h2 {
     font-size: 28px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   @media (min-width: 576px) {padding: 80px 0;}
   @media (min-width: 990px) {
@@ -580,73 +580,26 @@ br {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  height: 26px;
-  @media (min-width: 560px) {height: 40px;}
-  @media (min-width: 990px) {height: 42px;}
-  @media (min-width: 990px) {height: 48px;}
-  &.tesla {
-    img {
-      width: 67px;
-      @media (min-width: 560px) {width: 105px;}
-      @media (min-width: 990px) {width: 111px;}
-      @media (min-width: 1280px) {width: 126px;}
-    }
-  }
-  &.decathlon {
-    img {
-    width: 74px;
-    @media (min-width: 560px) {width: 115px;}
-    @media (min-width: 990px) {width: 120px;}
-    @media (min-width: 1280px) {width: 137px;}
-    }
-  }
-  &.png {
-    img {
-    width: 30px;
-    @media (min-width: 560px) {width: 46px;}
-    @media (min-width: 990px) {width: 48px;}
-    @media (min-width: 1280px) {width: 54px;}
-    }
-  }
-  &.samsung {
-    img {
-    width: 77px;
-    @media (min-width: 560px) {width: 120px;}
-    @media (min-width: 990px) {width: 126px;}
-    @media (min-width: 1280px) {width: 143px;}
-    }
-  }
-  &.forbes {
-    img {
-    width: 56px;
-    @media (min-width: 560px) {width: 87px;}
-    @media (min-width: 990px) {width: 91px;}
-    @media (min-width: 1280px) {width: 103px;}
-    }
-  }
-  &.ibm {
-    img {
-    width: 34px;
-    @media (min-width: 560px) {width: 52px;}
-    @media (min-width: 990px) {width: 55px;}
-    @media (min-width: 1280px) {width: 62px;}
-    }
-  }
-  &.walmart {
-    img {
-    width: 78px;
-    @media (min-width: 560px) {width: 121px;}
-    @media (min-width: 990px) {width: 127px;}
-    @media (min-width: 1280px) {width: 144px;}
-    }
-  }
+  zoom: 0.6;
+  @media (min-width: 576px) {zoom: 0.86;}
+  @media (min-width: 1200px) {zoom: 1;}
   img {
     width: 100%;
     @media (min-width: 560px) {
-      width: 105px;
+      // width: 105px;
     }
   }
 }
+.us {
+  @media (min-width: 992px) {
+    &_gethuman { order: 3; }
+    &_trophy { order: 1; }
+    &_nml { order: 4; }
+    &_smokies { order: 2; }
+    &_sugar { order: 5; } 
+  }
+}
+
 
 
 
