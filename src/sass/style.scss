@@ -1024,15 +1024,15 @@ html {
   margin: 24px auto 12px;
   @media (min-width: 560px) {
     margin-top: 30px;
-    img {height: 54px;}
+    img {height: 60px;}
   }
   @media (min-width: 990px) {
     margin-top: 20px;
     margin-bottom: 0px;
     display: block;
     img {
-      width: 75px;
-      height: 75px;
+      width: 85px;
+      height: auto;
     }
   }
 }
