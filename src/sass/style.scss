@@ -586,6 +586,7 @@ br {
     &:last-of-type {
       margin-right: 15px;
     }
+    &.activeLink p {color: #fff;}
     &.active {
       p {color: #fff;}
       border-bottom-color: #5BF5FA;
