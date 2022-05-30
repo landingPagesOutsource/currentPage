@@ -1,5 +1,20 @@
 $(document).ready(function () {
 
+
+
+  var animData = {
+    container: document.getElementById('lottie'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: false,
+    path: '../js/hero.json'
+  };
+  var anim = lottie.loadAnimation(animData);
+  anim.addEventListener("DOMLoaded", function () {
+    anim.play();
+  });
+
+
   // ScrollTo
 
   $(".scrollTo").on("click", function(){
