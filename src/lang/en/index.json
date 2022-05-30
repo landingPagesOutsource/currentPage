@@ -1,5 +1,6 @@
 {
   "lang": "en",
+  "url": "smb-business-challenges",
 
   "button": "start now",
 
@@ -10,86 +11,75 @@
   },
 
   "main": {
-    "title-1_1": "Build your",
-    "title-1_2": "local",
-    "title-1_3": "b<span>u</span>siness",
-    "title-1_4": "local b<span>u</span>siness",
-    "title-2": "WITH OUR ALL&#8209;IN&#8209;ONE<br>MARKETING SUITE",
-    "text": "For everything your business needs to grow, there&#39;s Semrush. Take the guesswork out of online marketing and reach new heights <b>for just $160.</b>",
-    "button": "Start now"
+    "title-1": "get Solutions",
+    "title-2": "to any marketing challenge",
+    "text": "Local SEO, content, influencer marketing, e-commerce—you name it. Semrush is ready to help fill the trickiest gaps in your marketing strategy."
   },
 
-  "trusted": {"title": "Trusted by"},
-
-  "benefits": {
-    "title": "Help your customers find&nbsp;you first with Semrush",
-
-    "item-1_title": "Attract more customers with online channels",
-    "item-1_text": "Make more sales and expand your business with a strong online presence.",
-
-    "item-2_title": "Be the best business in your community",
-    "item-2_text": "Measure yourself against your competitors, uncover their strategy, and get ahead.",
-
-    "item-3_title": "Market where you need it most",
-    "item-3_text": "Target customers in your community or worldwide with our all-in-one marketing solution."
+  "top": {
+    "title": "Unique tools to get real&nbsp;results",
+    "menu-item_1": "Grow your local business",
+    "menu-item_2": "Produce better content",
+    "menu-item_3": "Order tailored content",
+    "menu-item_4": "Get ecommerce insights",
+    "menu-item_5": "Find perfect influencers",
+    "menu-item_6": "Increase app visibility"
   },
 
-  "overview": {
-    "title": "Save time and money with&nbsp;Semrush Local",
-    "subtitle": "We gathered everything you need and automated it for your ease. Set your business up for growth <i>for only $160 per month</i>",
+  "top-item": {
+    "item-1_title": "Attract more customers in your neighborhood",
+    "item-1_tool": "Listing Management",
+    "item-1_li-1": "Boost your local rankings and manage your NAP data across the web",
+    "item-1_li-2": "Monitor all your reviews and Google Business Profile in one place",
+    "item-1_li-3": "Track your visibility on a hyper local level and see how you stack up to the competition",
+    "item-1_btn": "Try Listing Management",
 
-    "item-1_title": "Drive your future customers to your doorstep",
-    "item-1_text": "Optimize your Google Business Profile, keep your business listings updated on Google Maps, Yelp, and 70 more local directories, and manage all your online reviews from one convenient place.",
+    "item-2_title": "Plan high quality blog posts almost instantly",
+    "item-2_tool": "Content Outline Builder",
+    "item-2_li-1": "Choose a topic and generate an instant outline",
+    "item-2_li-2": "Get data-backed tips on headings, word count, and keywords",
+    "item-2_li-3": "See what’s working for competitors so you can produce even better content",
+    "item-2_btn": "Create Your First Outline Free",
 
-    "item-2_title": "Create content that resonates with your audience",
-    "item-2_text": "Discover the most powerful keywords you should target—including the ones your competitors use to win. Then create winning content for your site and climb to the top of the rankings.",
+    "item-3_title": "Get professionally written content on a budget",
+    "item-3_tool": "Marketplace",
+    "item-3_li-1": "Order SEO-friendly articles, press releases, website copy, emails, ebooks, and more",
+    "item-3_li-2": "Fast, custom content tailored perfectly to your needs",
+    "item-3_li-3": "100% white label content to use as you please",
+    "item-3_btn": "Order Content Now",
 
-    "item-3_title": "Get your name out there with ads that actually deliver",
-    "item-3_text": "Make sure your future customers know your name instead of the competition. Optimize your ad copy to reach the right audiences, spark curiosity in your brand, and increase your ROI.",
+    "item-4_title": "Create a smarter e-commerce product and keyword strategy",
+    "item-4_tool": "E-commerce Keywords Analytics",
+    "item-4_li-1": "Learn how online giants like Amazon do keyword strategy",
+    "item-4_li-2": "Discover top-performing e-commerce keywords",
+    "item-4_li-3": "Evaluate product potential with ecommerce keyword stats",
+    "item-4_btn": "Start Keyword Analysis",
 
-    "item-4_title": "Connect with customers on their preferred platforms",
-    "item-4_text": "Use social media to increase brand awareness and build customer relationships. Manage your Facebook, Instagram, Twitter, LinkedIn, Pinterest, and Google Business Profile all together.",
+    "item-5_title": "Promote your brand to the right audience with influencers",
+    "item-5_tool": "BuzzGuru Influencer Analytics",
+    "item-5_li-1": "Use the largest influencer database on the market to find your perfect brand ambassadors",
+    "item-5_li-2": "Find influencers for Instagram, YouTube, Tiktok, and Twitch",
+    "item-5_li-3": "Learn from your competitors’ influencer marketing strategies",
+    "item-5_btn": "Try BuzzGuru Free",
 
-    "button": "START NOW"
+    "item-6_title": "Increase your app visibility on Google Play or Apple App Store",
+    "item-6_tool": "Mobile App Insights",
+    "item-6_li-1": "Find new keywords for your app and optimize your app listings",
+    "item-6_li-2": "Finetune your apple search ads strategy",
+    "item-6_li-3": "Get extensive tracking limits (400 keywords/10 apps/10 competitors)",
+    "item-6_btn": "Get Mobile Insights"
   },
 
-  "cases": {
-    "title": "Small businesses deliver big&nbsp;results with Semrush",
-    
-    "item-1_title": "Local business used Semrush to grow their client base and revenue by 300%",
-    "item-1_text": "Liverpool dental practice Smileworks used Semrush tools to conquer their local rankings, explode their organic traffic, and get more patients in the door.",
-    "item-1_li-1": "<a href='https://www.semrush.com/signup/?src=lp-all-in-one-local-marketing-solution-${{ index.lang }}$&trial=force&redirect_to=%2Flistings-management%2F' class='listings-management_link'>Listings Management</a> enabled Smileworks to manage their business info online and increase their Google Maps listings by 300%",
-    "item-1_li-2": "<a href='https://www.semrush.com/signup/?src=lp-all-in-one-local-marketing-solution-${{ index.lang }}$&trial=force&redirect_to=%2Fanalytics%2Foverview%2F' class='domain-overview_link'>Domain Overview</a> helped them to learn from their biggest local competitors",
-
-    "item-2_title": "Family bakery used Semrush to rank #1 on Google",
-    "item-2_text": "Pastreez, a California-based French bakery, used Semrush digital marketing tools to assess their market, plan their strategy, and supercharge their growth.",
-    "item-2_li-1": "<a href='https://www.semrush.com/signup/?src=lp-all-in-one-local-marketing-solution-${{ index.lang }}$&trial=force&redirect_to=%2Fanalytics%2Fkeywordoverview%2F' class='keyword-overview_link'>Keyword Overview</a> helped Pastreez find and target their biggest revenue-driving keywords",
-    "item-2_li-2": "<a href='https://www.semrush.com/signup/?src=lp-all-in-one-local-marketing-solution-${{ index.lang }}$&trial=force&redirect_to=%2Fanalytics%2Forganic%2F' class='organic-research_link'>Organic Research</a> revealed their competitors’ best keywords, so Pastreez could compete more effectively",
-
-    "item-3_title": "Free fitness site achieved first-ever six figure ad revenue with Semrush",
-    "item-3_text": "Nourish Move Love used Semrush SEO tools to boost organic traffic 150%, revitalize their existing content, and increase ROI.",
-    "item-3_li-1": "<a href='https://www.semrush.com/signup/?src=lp-all-in-one-local-marketing-solution-${{ index.lang }}$&trial=force&redirect_to=%2Fanalytics%2Fkeywordmagic%2F' class='keyword-magic-tool_link'>Keyword Magic Tool</a> helped NML find popular keywords that were overlooked by the fitness industry and rank #1 on Google for them",
-    "item-3_li-2": "<a href='https://www.semrush.com/signup/?src=lp-all-in-one-local-marketing-solution-${{ index.lang }}$&trial=force&redirect_to=%2Fposition-tracking%2F' class='position-tracking_link'>Position Tracking</a> alerted them to performance changes on priority keywords, so that they could easily pivot their strategy"
-  },
-
-  "checks": {
-    "title": "Everything your small business needs to succeed",
-
-    "item-1_title": "Grow at your own&nbsp;pace",
-    "item-1_text": "Growing quickly?<br> Add additional locations for just $40",
-
-    "item-2_title": "Cancel<br> any time",
-    "item-2_text": "Try Semrush today and cancel whenever you wish",
-
-    "item-3_title": "Unlock your expertise",
-    "item-3_text": "Get 24/7 support and a comprehensive knowledge base",
-
-    "button": "Start now"
-  },
-
-  "prefooter": {
-    "title-1": "Build your",
-    "title-2": "local b<span>u</span>siness"
+  "testimonials": {
+    "item_1_text": "I’ve never seen a local dental practice in the world ranking as much as we are now. We are ranking nationally. Because of the tool. Simple as that. ",
+    "item_1_author": "Mario León Rojas",
+    "item_1_position": "Performance Marketing Specialist, Banco del Sol",
+    "item_2_text": "When it comes to pure value, Semrush wins. That’s mostly because you get a fully-featured SEO software suite AND Google Ads software for the same monthly price.",
+    "item_2_author": "Brian Dean",
+    "item_2_position": "Founder, Backlinko",
+    "item_3_text": "With the help of Semrush, we empowered every single marketing team within the university to double their traffic like we did for the central sites.",
+    "item_3_author": "Shefali Joshi",
+    "item_3_position": "Marketing Optimization Analyst, Monash University"
   },
 
   "footer": {
