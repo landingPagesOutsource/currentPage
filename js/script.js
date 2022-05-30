@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-
+  // Animation
 
   var animData = {
     container: document.getElementById('lottie'),
@@ -23,23 +23,21 @@ $(document).ready(function () {
     return false;
   });
 
+
   // При клике на пункт меню - скролл влевоб плавно
 
   $(".top__header-item").on("click", function(){
     
     // активный класс
-    $(".top__header-item").removeClass("active");
-    $(this).addClass("active");
+    $(".top__header-item").removeClass("activeLink");
+    $(this).addClass("activeLink");
 
     // скролл влево
     var slideTo = $(this).offset().left;
     var wrap = document.getElementById("top__header-wrap");
     var slidePosition = (slideTo - wrap.getBoundingClientRect().left);
-    $(".container-wrap").animate({scrollLeft: slidePosition}, 1000);
+    $(".container-wrap").animate({scrollLeft: slidePosition}, 300);
   });
-
-
-
 
 
   // При скролле вниз
@@ -64,10 +62,10 @@ $(document).ready(function () {
      };
 
     if(windowScrollTop >= item1Offset && windowScrollTop < item2Offset){
-      $.debounce(menuScroll("#link1"),300);
+      menuScroll("#link1");
 
     } else if(windowScrollTop >= item2Offset && windowScrollTop < item3Offset){
-      $.debounce(menuScroll("#link2"),300);
+      menuScroll("#link2");
 
     } else if(windowScrollTop >= item3Offset && windowScrollTop < item4Offset){
       menuScroll("#link3");
@@ -86,8 +84,6 @@ $(document).ready(function () {
   });
 
 
-
-
   // Вычисление отступа до контейнера слева, чтобы отцентровать хедер
 
   var offsetLeft = $("#leftDetector").offset();
@@ -100,7 +96,6 @@ $(document).ready(function () {
     $(".container-wrap").css("padding-left", offsetLeft.left);
     $(".top__header-item:last-of-type").css("margin-right", offsetLeft.left);
   });    
-  
   
   
   // Липкий хедер
