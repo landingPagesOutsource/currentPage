@@ -307,6 +307,10 @@ br {
       font-size: 11.9vw;
       left: -5px;     
       height: 10px; 
+      span {
+        -webkit-font-feature-settings: 'ss01'on;
+        font-feature-settings: 'ss01'on;
+      }
       @media (min-width: 576px) {
         height: 20px;
       }
@@ -362,17 +366,16 @@ br {
       position: relative;
       overflow: hidden;
       min-height: 420px;
-      &-desktop {
-        height: 665px;
+
+        height: 543px;
         overflow: hidden;
         img {
-          height: 665px;
+          height: 543px;
           width: auto;
           position: absolute;
           left: 50%;
           margin-left: -360px;
         }
-      }
     }
     @media (min-width: 1440px) {
       overflow: visible;
@@ -398,7 +401,7 @@ br {
     padding: 0 20px;
     &-p {
       max-width: 510px;
-      margin: 0 auto;
+      margin: 0 auto 30px;
       font-size: 22px;
       padding: 0 15px;
       line-height: 1.2;
@@ -412,7 +415,6 @@ br {
       &-p {
         font-size: 28px;
         line-height: 1.3;
-        margin: 0 auto;
         max-width: 510px;
         position: relative;
       }
@@ -439,6 +441,10 @@ br {
       color: #fff;
       &.main__title-2 {
         color: $yellow;
+        span {
+          -webkit-font-feature-settings: 'ss01'on;
+          font-feature-settings: 'ss01'on;
+        }
       }
       @media (min-width: 992px) {
       }
@@ -457,17 +463,26 @@ br {
       font-size: 40px;
       margin-bottom: 20px;
     }
+  } 
+}
+#lottie {
+  width: 46px;
+  margin: 0 auto;
+  svg path {stroke: yellow;}
+  @media (min-width: 992px) {
+    width: 56px;
   }
-  
 }
 //**************  top-screen  **************//
 .top-screen__header {
-  padding: 50px 0 25px;
+  padding: 30px 0 25px;
   background: $violet;
   @media (min-width: 992px) {
+    padding-top: 50px;
     padding-bottom: 60px;
   }
   @media (min-width: 1200px) {
+    padding-top: 90px;
     padding-bottom: 70px;
   }
   h2 {

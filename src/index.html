@@ -203,6 +203,7 @@
               <div class="main__text">
                 <p class="main__title-2">${{ index.main.title-2 }}$</p>
                 <p class="main__text-p">${{ index.main.text }}$</p>
+                <div id="lottie"></div>
               </div>
             </div>          
 
@@ -267,7 +268,12 @@
       <div class="container">
           <div class="top-screen__item" id="leftDetector">
             <h3 class="top-screen__title">${{ index.top-item.item-1_title }}$</h3>
-            <img src="../img/top-1.svg" alt="">
+            <picture alt="">
+              <source srcset="../img/tool-1_x1.webp,
+                              ../img/tool-1_x2.webp 2x" type="image/webp" />
+              <source srcset="../img/tool-1_x2.png 2x" />
+              <img src="../img/tool-1_x1.png" alt="" />
+            </picture>
 
             <p class="top-screen__bold title-1">${{ index.top-item.item-1_tool }}$</p>
 
@@ -293,7 +299,12 @@
       <div class="container">
           <div class="top-screen__item">
             <h3 class="top-screen__title">${{ index.top-item.item-2_title }}$</h3>
-            <img src="../img/top-2.svg" alt="">
+            <picture alt="">
+              <source srcset="../img/tool-2_x1.webp,
+                              ../img/tool-2_x2.webp 2x" type="image/webp" />
+              <source srcset="../img/tool-2_x2.png 2x" />
+              <img src="../img/tool-2_x1.png" alt="" />
+            </picture>
 
             <p class="top-screen__bold title-2">${{ index.top-item.item-2_tool }}$</p>
 
@@ -319,7 +330,12 @@
       <div class="container">
           <div class="top-screen__item">
             <h3 class="top-screen__title">${{ index.top-item.item-3_title }}$</h3>
-            <img src="../img/top-3.svg" alt="">
+            <picture alt="">
+              <source srcset="../img/tool-3_x1.webp,
+                              ../img/tool-3_x2.webp 2x" type="image/webp" />
+              <source srcset="../img/tool-3_x2.png 2x" />
+              <img src="../img/tool-3_x1.png" alt="" />
+            </picture>
 
             <p class="top-screen__bold title-3">${{ index.top-item.item-3_tool }}$</p>
 
@@ -345,7 +361,12 @@
       <div class="container">
           <div class="top-screen__item">
             <h3 class="top-screen__title">${{ index.top-item.item-4_title }}$</h3>
-            <img src="../img/top-4.svg" alt="">
+            <picture alt="">
+              <source srcset="../img/tool-4_x1.webp,
+                              ../img/tool-4_x2.webp 2x" type="image/webp" />
+              <source srcset="../img/tool-4_x2.png 2x" />
+              <img src="../img/tool-4_x1.png" alt="" />
+            </picture>
 
             <p class="top-screen__bold title-4">${{ index.top-item.item-4_tool }}$</p>
 
@@ -371,7 +392,12 @@
       <div class="container">
           <div class="top-screen__item">
             <h3 class="top-screen__title">${{ index.top-item.item-5_title }}$</h3>
-            <img src="../img/top-5.svg" alt="">
+            <picture alt="">
+              <source srcset="../img/tool-5_x1.webp,
+                              ../img/tool-5_x2.webp 2x" type="image/webp" />
+              <source srcset="../img/tool-5_x2.png 2x" />
+              <img src="../img/tool-5_x1.png" alt="" />
+            </picture>
 
             <p class="top-screen__bold title-5">${{ index.top-item.item-5_tool }}$</p>
 
@@ -397,7 +423,12 @@
       <div class="container">
           <div class="top-screen__item">
             <h3 class="top-screen__title">${{ index.top-item.item-6_title }}$</h3>
-            <img src="../img/top-6.svg" alt="">
+            <picture alt="">
+              <source srcset="../img/tool-6_x1.webp,
+                              ../img/tool-6_x2.webp 2x" type="image/webp" />
+              <source srcset="../img/tool-6_x2.png 2x" />
+              <img src="../img/tool-6_x1.png" alt="" />
+            </picture>
 
             <p class="top-screen__bold title-6">${{ index.top-item.item-6_tool }}$</p>
 
@@ -519,7 +550,7 @@
     </div>
 
     <!-- footer ends -->
-
+    <script src="../js/lottie.js"></script>
     <script src="../js/siema.js"></script>
     <script src="../js/script.js"></script>
     <script src="../js/scrollTo.js"></script>
