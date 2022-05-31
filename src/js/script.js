@@ -23,63 +23,50 @@ $(document).ready(function () {
     return false;
   });
 
-
-  // При клике на пункт меню - скролл влевоб плавно
-
-  $(".top__header-item").on("click", function(){
-    
-    // активный класс
-    $(".top__header-item").removeClass("activeLink");
-    $(this).addClass("activeLink");
-
-    // скролл влево
-    var slideTo = $(this).offset().left;
-    var wrap = document.getElementById("top__header-wrap");
-    var slidePosition = (slideTo - wrap.getBoundingClientRect().left);
-    $(".container-wrap").animate({scrollLeft: slidePosition}, 300);
-  });
-
-
   // При скролле вниз
 
   $(window).scroll(function(){
     var wrap = document.getElementById("top__header-wrap");
+    var sticky = document.getElementById("sticky");
+    var topHeader = document.getElementsByClassName("top-screen__header")[0];
+    var extraSpace = topHeader.offsetHeight - sticky.offsetHeight;
+    var stickyBottom = sticky.getBoundingClientRect().top + extraSpace;
+
     var slidePosition;
-    
-    var item1Offset = $("#topItem-1").offset().top;
-    var item2Offset = $("#topItem-2").offset().top;
-    var item3Offset = $("#topItem-3").offset().top;
-    var item4Offset = $("#topItem-4").offset().top;
-    var item5Offset = $("#topItem-5").offset().top;
-    var item6Offset = $("#topItem-6").offset().top;
-    var windowScrollTop = $(window).scrollTop() + 110;
+
+    var item1Bottom = document.getElementById("topItem-1").getBoundingClientRect().bottom;
+    var item2Bottom = document.getElementById("topItem-2").getBoundingClientRect().bottom;
+    var item3Bottom = document.getElementById("topItem-3").getBoundingClientRect().bottom;
+    var item4Bottom = document.getElementById("topItem-4").getBoundingClientRect().bottom;
+    var item5Bottom = document.getElementById("topItem-5").getBoundingClientRect().bottom;
+    var item6Bottom = document.getElementById("topItem-6").getBoundingClientRect().bottom;
 
     function menuScroll(linkId) { 
-      slidePosition = $(linkId).offset().left - wrap.getBoundingClientRect().left;
-      $(".container-wrap").scrollLeft(slidePosition);
+      if ($(linkId).hasClass("active")) {
+        return;
+      }
+      slidePosition = document.querySelector(linkId).getBoundingClientRect().left - wrap.getBoundingClientRect().left;
+      $(".container-wrap").animate({scrollLeft: slidePosition}, 300);
       $(".top__header-item").removeClass("active");
       $(linkId).addClass("active");
-     };
+    };
 
-    if(windowScrollTop >= item1Offset && windowScrollTop < item2Offset){
+    if (stickyBottom <= item1Bottom) { 
       menuScroll("#link1");
-
-    } else if(windowScrollTop >= item2Offset && windowScrollTop < item3Offset){
+    } else if (stickyBottom >= item1Bottom && stickyBottom <= item2Bottom) {
       menuScroll("#link2");
 
-    } else if(windowScrollTop >= item3Offset && windowScrollTop < item4Offset){
+    } else if (stickyBottom >= item2Bottom && stickyBottom <= item3Bottom) {
       menuScroll("#link3");
 
-    } else if(windowScrollTop >= item4Offset && windowScrollTop < item5Offset){
+    } else if (stickyBottom >= item3Bottom && stickyBottom <= item4Bottom) {
       menuScroll("#link4");
 
-    } else if(windowScrollTop >= item5Offset && windowScrollTop < item6Offset){
+    } else if(stickyBottom >= item4Bottom && stickyBottom <= item5Bottom){
       menuScroll("#link5");
 
-    } else if(windowScrollTop >= item6Offset){
+    } else if(stickyBottom >= item5Bottom && stickyBottom <= item6Bottom){
       menuScroll("#link6");
-    }
-    else{
     }
   });
 
