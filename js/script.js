@@ -46,7 +46,7 @@ $(document).ready(function () {
         return;
       }
       slidePosition = $(linkId).offset().left - wrap.getBoundingClientRect().left;
-      $(".container-wrap").scrollLeft(slidePosition);
+      $(".container-wrap").animate({scrollLeft: slidePosition}, 300);
       $(".top__header-item").removeClass("active");
       $(linkId).addClass("active");
     };
