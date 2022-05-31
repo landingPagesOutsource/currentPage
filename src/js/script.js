@@ -45,7 +45,7 @@ $(document).ready(function () {
       if ($(linkId).hasClass("active")) {
         return;
       }
-      slidePosition = $(linkId).offset().left - wrap.getBoundingClientRect().left;
+      slidePosition = document.querySelector(linkId).getBoundingClientRect().left - wrap.getBoundingClientRect().left;
       $(".container-wrap").animate({scrollLeft: slidePosition}, 300);
       $(".top__header-item").removeClass("active");
       $(linkId).addClass("active");
