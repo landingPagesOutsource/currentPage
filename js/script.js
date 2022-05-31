@@ -23,23 +23,6 @@ $(document).ready(function () {
     return false;
   });
 
-
-  // При клике на пункт меню - скролл влевоб плавно
-
-  $(".top__header-item").on("click", function(){
-    
-    // активный класс
-    $(".top__header-item").removeClass("activeLink");
-    $(this).addClass("activeLink");
-
-    // скролл влево
-    var slideTo = $(this).offset().left;
-    var wrap = document.getElementById("top__header-wrap");
-    var slidePosition = (slideTo - wrap.getBoundingClientRect().left);
-    $(".container-wrap").animate({scrollLeft: slidePosition}, 300);
-  });
-
-
   // При скролле вниз
 
   $(window).scroll(function(){
