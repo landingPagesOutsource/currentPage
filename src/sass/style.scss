@@ -370,6 +370,7 @@ br {
         height: 543px;
         overflow: hidden;
         img {
+          max-width: none;
           height: 543px;
           width: auto;
           position: absolute;
@@ -433,7 +434,7 @@ br {
     @media (min-width: 1200px) {
       padding-top: 180px;
       &-p {
-        max-width: 540px;
+        max-width: 460px;
         margin-bottom: 20px;
       }
     }
@@ -473,7 +474,11 @@ br {
     width: 56px;
   }
 }
+
+
+
 //**************  top-screen  **************//
+
 .top-screen__header {
   padding: 30px 0 25px;
   background: $violet;
@@ -631,6 +636,11 @@ br {
   }
   @media (min-width: 992px) {
     padding-bottom: 50px;
+  }
+  @media (min-width: 1300px) {
+    .container {
+      max-width: 1290px;
+    }
   }
   &.gradient {
     background: linear-gradient(180deg, $violet, $violet 50% ,  #fff 50%);
