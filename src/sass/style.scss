@@ -534,7 +534,7 @@ br {
       transition: .3s;
       scroll-behavior: smooth;
       &::-webkit-scrollbar { width: 0; }
-    -ms-overflow-style: none;
+      -ms-overflow-style: none;
       overflow: -moz-scrollbars-none;
     }
     @media (min-width: 576px) {
