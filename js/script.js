@@ -111,10 +111,6 @@ $(document).ready(function () {
   year = now.getFullYear();
   $('.year').html(year);
 
-  
-
-
-
   /*********  Slider-testimonials  *********/
 
   function getScreenSize() {
@@ -362,8 +358,6 @@ $(document).ready(function () {
 
   const testimonialsSlider = new Testimonials();
   testimonialsSlider.init();
-
-
   
 
 });
