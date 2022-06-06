@@ -1,108 +1,4 @@
 $(document).ready(function () {
-
-  // Animation
-
-  var animData = {
-    container: document.getElementById('lottie'),
-    renderer: 'svg',
-    loop: true,
-    autoplay: false,
-    path: '../js/hero.json'
-  };
-  var anim = lottie.loadAnimation(animData);
-  anim.addEventListener("DOMLoaded", function () {
-    anim.play();
-  });
-
-
-  // ScrollTo
-
-  $(".scrollTo").on("click", function(){
-    var idScroll = $(this).attr('data-scroll');
-    $.scrollTo(idScroll, 1000, { offset:-105 });
-    return false;
-  });
-
-  // При скролле вниз
-
-  $(window).scroll(function(){
-    var wrap = document.getElementById("top__header-wrap");
-    var sticky = document.getElementById("sticky");
-    var topHeader = document.getElementsByClassName("top-screen__header")[0];
-    var extraSpace = topHeader.offsetHeight - sticky.offsetHeight;
-    var stickyBottom = sticky.getBoundingClientRect().top + extraSpace;
-
-    var slidePosition;
-
-    var item1Bottom = document.getElementById("topItem-1").getBoundingClientRect().bottom;
-    var item2Bottom = document.getElementById("topItem-2").getBoundingClientRect().bottom;
-    var item3Bottom = document.getElementById("topItem-3").getBoundingClientRect().bottom;
-    var item4Bottom = document.getElementById("topItem-4").getBoundingClientRect().bottom;
-    var item5Bottom = document.getElementById("topItem-5").getBoundingClientRect().bottom;
-    var item6Bottom = document.getElementById("topItem-6").getBoundingClientRect().bottom;
-
-    function menuScroll(linkId) { 
-      if ($(linkId).hasClass("active")) {
-        return;
-      }
-      slidePosition = document.querySelector(linkId).getBoundingClientRect().left - wrap.getBoundingClientRect().left;
-      $(".container-wrap").animate({scrollLeft: slidePosition}, 300);
-      $(".top__header-item").removeClass("active");
-      $(linkId).addClass("active");
-    };
-
-    if (stickyBottom <= item1Bottom) { 
-      menuScroll("#link1");
-    } else if (stickyBottom >= item1Bottom && stickyBottom <= item2Bottom) {
-      menuScroll("#link2");
-
-    } else if (stickyBottom >= item2Bottom && stickyBottom <= item3Bottom) {
-      menuScroll("#link3");
-
-    } else if (stickyBottom >= item3Bottom && stickyBottom <= item4Bottom) {
-      menuScroll("#link4");
-
-    } else if(stickyBottom >= item4Bottom && stickyBottom <= item5Bottom){
-      menuScroll("#link5");
-
-    } else if(stickyBottom >= item5Bottom && stickyBottom <= item6Bottom){
-      menuScroll("#link6");
-    }
-  });
-
-
-  // Вычисление отступа до контейнера слева, чтобы отцентровать хедер
-
-  var offsetLeft = $("#leftDetector").offset();
-
-  $(".container-wrap").css("padding-left", offsetLeft.left);
-  $(".top__header-item:last-of-type").css("margin-right", offsetLeft.left);
-  
-  $(window).resize(function() {
-    offsetLeft = $("#leftDetector").offset();
-    $(".container-wrap").css("padding-left", offsetLeft.left);
-    $(".top__header-item:last-of-type").css("margin-right", offsetLeft.left);
-  });    
-  
-  
-  // Липкий хедер
-  var offsetTop = $("#stickyDetector").offset().top;
-
-  $(window).resize(function() {
-    offsetTop = $("#stickyDetector").offset().top;
-  }); 
-  $(window).scroll(function () {
-    offsetTop = $("#stickyDetector").offset().top;
-    var scroll_position = $(window).scrollTop();
-    if (scroll_position > offsetTop) {
-      $('#sticky').addClass('sticky');
-      $("#stickyDetector").addClass("placeholder");
-    } else {
-      $('#sticky').removeClass('sticky');
-      $("#stickyDetector").removeClass("placeholder");
-    }
-  });
-
   
    
 
@@ -110,6 +6,45 @@ $(document).ready(function () {
   var now = new Date();
   year = now.getFullYear();
   $('.year').html(year);
+
+  /*********  Fixed header  *********/
+
+  $(window).scroll(function () {
+    var scroll_position = $(window).scrollTop();
+    var mobil_width = $(window).width();
+    if (mobil_width > 300) {
+      if (scroll_position > 600) {
+        $('.nav').addClass('sticky');
+      } else {
+        $('.nav').removeClass('sticky');
+      }
+    } else {
+      $('.nav').removeClass('sticky');
+    }
+  });
+
+  
+  var n = new Date;
+  year = n.getFullYear(), $(".year").html(year), $(window).scroll((function () {
+    var n = $(window).scrollTop();
+    $(window).width() > 300 && n > 600 ? $(".nav").addClass("sticky") : $(".nav").removeClass("sticky")
+  })), $((function () {
+    var n = function (n, e) {
+      this.el = n || {}, this.multiple = e || !1, this.el.find(".dropdownlink").on("click", {
+        el: this.el,
+        multiple: this.multiple
+      }, this.dropdown)
+    };
+    n.prototype.dropdown = function (n) {
+      var e = n.data.el,
+        o = $(this),
+        i = o.next();
+      i.slideToggle(), o.parent().toggleClass("open"), n.data.multiple || e.find(".submenuItems").not(i).slideUp().parent().removeClass("open")
+    };
+    new n($("#accordion-menu-1"), !1) 
+    new n($("#accordion-menu-2"), !1)
+  }))
+
 
   /*********  Slider-testimonials  *********/
 
