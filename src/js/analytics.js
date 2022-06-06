@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
-  // header
-  $(".cta_line_button").click(function () {
+  // tool-1
+  $(".cta_listing-management_button").click(function () {
     dataLayer.push({
       event: "semrush",
       eventCategory: "lp:smb-stories-tamika",
@@ -11,8 +11,8 @@ $(document).ready(function () {
     });
   });
 
-  // main
-  $(".cta_main_button").click(function () {
+  // tool-2
+  $(".cta_content-outline-builder_button").click(function () {
     dataLayer.push({
       event: "semrush",
       eventCategory: "lp:smb-stories-tamika",
