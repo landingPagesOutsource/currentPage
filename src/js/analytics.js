@@ -4,9 +4,9 @@ $(document).ready(function () {
   $(".cta_line_button").click(function () {
     dataLayer.push({
       event: "semrush",
-      eventCategory: "lp:all-in-one-local-marketing-solution",
+      eventCategory: "lp:smb-stories-tamika",
       eventAction: "click:line_button",
-      eventLabel: "Start now",
+      eventLabel: "Try It Free",
       eventValue: null,
     });
   });
@@ -15,98 +15,53 @@ $(document).ready(function () {
   $(".cta_main_button").click(function () {
     dataLayer.push({
       event: "semrush",
-      eventCategory: "lp:all-in-one-local-marketing-solution",
+      eventCategory: "lp:smb-stories-tamika",
       eventAction: "click:main_button",
-      eventLabel: "Start now",
+      eventLabel: "Try It Free",
       eventValue: null,
     });
   });
 
-  // overview
-  $(".cta_overview_button").click(function () {
+  // step 1
+  $(".cta_step-1_button").click(function () {
     dataLayer.push({
       event: "semrush",
-      eventCategory: "lp:all-in-one-local-marketing-solution",
-      eventAction: "click:overview_button",
-      eventLabel: "Start now",
+      eventCategory: "lp:smb-stories-tamika",
+      eventAction: "click:step-1_button",
+      eventLabel: "Find my perfect keywords",
       eventValue: null,
     });
   });
 
-
-  // cases
-
-  $(".listings-management_link").click(function () {
+  // step 2
+  $(".cta_step-2_button").click(function () {
     dataLayer.push({
       event: "semrush",
-      eventCategory: "lp:all-in-one-local-marketing-solution",
-      eventAction: "click:listings-management_link",
-      eventLabel: "Listing Management",
+      eventCategory: "lp:smb-stories-tamika",
+      eventAction: "click:step-2_button",
+      eventLabel: "Research your competitors",
       eventValue: null,
     });
   });
 
-  $(".domain-overview_link").click(function () {
+  // step 3
+  $(".cta_step-3_button").click(function () {
     dataLayer.push({
       event: "semrush",
-      eventCategory: "lp:all-in-one-local-marketing-solution",
-      eventAction: "click:domain-overview_link",
-      eventLabel: "Domain Overview",
+      eventCategory: "lp:smb-stories-tamika",
+      eventAction: "click:step-3_button",
+      eventLabel: "Audit your listings",
       eventValue: null,
     });
   });
 
-  $(".keyword-overview_link").click(function () {
+  // footer
+  $(".cta_footer_button").click(function () {
     dataLayer.push({
       event: "semrush",
-      eventCategory: "lp:all-in-one-local-marketing-solution",
-      eventAction: "click:keyword-overview_link",
-      eventLabel: "Keyword Overview",
-      eventValue: null,
-    });
-  });
-
-  $(".organic-research_link").click(function () {
-    dataLayer.push({
-      event: "semrush",
-      eventCategory: "lp:all-in-one-local-marketing-solution",
-      eventAction: "click:organic-research_link",
-      eventLabel: "Organic Research",
-      eventValue: null,
-    });
-  });
-
-  $(".keyword-magic-tool_link").click(function () {
-    dataLayer.push({
-      event: "semrush",
-      eventCategory: "lp:all-in-one-local-marketing-solution",
-      eventAction: "click:keyword-magic-tool_link",
-      eventLabel: "Keyword Magic Tool",
-      eventValue: null,
-    });
-  });
-
-  $(".position-tracking_link").click(function () {
-    dataLayer.push({
-      event: "semrush",
-      eventCategory: "lp:all-in-one-local-marketing-solution",
-      eventAction: "click:position-tracking_link",
-      eventLabel: "Organic Research",
-      eventValue: null,
-    });
-  });
-
-
-
-
-
-  // checks
-  $(".cta_checks_button").click(function () {
-    dataLayer.push({
-      event: "semrush",
-      eventCategory: "lp:all-in-one-local-marketing-solution",
-      eventAction: "click:checks_button",
-      eventLabel: "start now",
+      eventCategory: "lp:smb-stories-tamika",
+      eventAction: "click:footer_button",
+      eventLabel: "Try It Free",
       eventValue: null,
     });
   });

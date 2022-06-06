@@ -57,7 +57,7 @@ html {
   margin-left: -15px
 }
 
-.col-10,.col-12,.col-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-7,.col-md-3,.col-md-4,.col-md-6,.col-xl-6 {
+.col-10,.col-12,.col-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-7,.col-lg-8,.col-md-3,.col-md-4,.col-md-6,.col-xl-6 {
   position: relative;
   width: 99%;
   padding-right: 15px;
@@ -141,6 +141,12 @@ html {
       -webkit-box-flex: 0;
       flex: 0 0 58.333333%;
       max-width: 58.233333%
+  }
+  .col-lg-8 {
+    -ms-flex: 0 0 66.666666%;
+    -webkit-box-flex: 0;
+    flex: 0 0 66.666666%;
+    max-width: 66.666666%
   }
 }
 
