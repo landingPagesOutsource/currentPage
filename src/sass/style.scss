@@ -317,11 +317,11 @@ br {
         margin-bottom: 5px;
       }
       &.big {
-        font-size: 15vw;
-        left: -7px;
+        font-size: 14.1vw;
+        left: -4px;
         letter-spacing: -0.04em;
         @media (min-width: 365px) {
-          font-size: 14.8vw;
+          font-size: 14.1vw;
         }
       }
       @media (min-width: 576px) {
@@ -345,7 +345,7 @@ br {
         &.pretitle { margin-bottom: 20px; }
         &.big {
           left: 0;
-          font-size: 190px;
+          font-size: 199px;
         }
       }
     }
