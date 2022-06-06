@@ -23,6 +23,7 @@ h2 {
   margin: 0 auto 50px;
   font-size: 36px;
   line-height: 110%;
+  font-family: "Factor", arial, sans-serif;
   span {
     -webkit-font-feature-settings: 'ss01'on;
     font-feature-settings: 'ss01'on;
@@ -306,6 +307,7 @@ br {
       white-space: nowrap;
       position: relative;
       max-width: none;
+
       
       &.desktop {display: none;}
       &.pretitle, &.subtitle {
@@ -315,8 +317,12 @@ br {
         margin-bottom: 5px;
       }
       &.big {
-        font-size: 13.4vw;
-        left: -5px;
+        font-size: 15vw;
+        left: -7px;
+        letter-spacing: -0.04em;
+        @media (min-width: 365px) {
+          font-size: 14.8vw;
+        }
       }
       @media (min-width: 576px) {
         &.pretitle {
@@ -658,7 +664,7 @@ br {
     }
   }
   a.button {
-    padding: 0 20px;
+    padding: 24px 20px 18px;
     width: 100%;
     font-size: 14px;
     @media (min-width: 375px) {
