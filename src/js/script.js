@@ -136,14 +136,13 @@ $(document).ready(function () {
       return window.matchMedia('(max-width: 767px)').matches;
     }
     getHeightActiveItem() {
-      const active = this.container.querySelector('.js-slider-item[data-active="true"]');
+      const active = this.slider.innerElements[this.slider.currentSlide];
       if (active) {
-        return active.offsetHeight;
+        return active.getBoundingClientRect().height;
       }
       return null;
     }
     updateHeightWrap() {
-      const testimonialsContainer = document.querySelector('.js-testimonials');
       const height = this.getHeightActiveItem();
       const slidesWrapper = this.container.querySelector(ROOT_SELECTOR);
       if (height && slidesWrapper) {
@@ -179,12 +178,14 @@ $(document).ready(function () {
       }
     }
     updateActiveItem(innerElements, current) {
-      const items = document.querySelectorAll('.js-slider-item');
-      items.forEach((item) => {
-        item.setAttribute('data-active', 'false');
+      innerElements.forEach((item, index) => {
+        if (index === current) {
+          item.setAttribute('data-active', 'true');
+        } else {
+          item.setAttribute('data-active', 'false');
+        }
       });
       const currentSlide = innerElements[current];
-      currentSlide.setAttribute('data-active', 'true');
       const currentType = currentSlide.getAttribute('data-type');
       if (currentType) {
         this.container.setAttribute('data-type', currentType);
