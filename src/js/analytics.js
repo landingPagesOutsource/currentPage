@@ -4,7 +4,7 @@ $(document).ready(function () {
   $(".cta_line_button").click(function () {
     dataLayer.push({
       event: "semrush",
-      eventCategory: "lp:grow-small-business",
+      eventCategory: "lp:grow-small-business-v",
       eventAction: "click:line_button",
       eventLabel: "try semrush free",
       eventValue: null,
@@ -15,20 +15,20 @@ $(document).ready(function () {
   $(".cta_main_button").click(function () {
     dataLayer.push({
       event: "semrush",
-      eventCategory: "lp:grow-small-business",
+      eventCategory: "lp:grow-small-business-v",
       eventAction: "click:main_button",
       eventLabel: "try semrush free",
       eventValue: null,
     });
   });
 
-  // help
-  $(".cta_help_button").click(function () {
+  // cta
+  $(".cta_cta_button").click(function () {
     dataLayer.push({
       event: "semrush",
-      eventCategory: "lp:grow-small-business",
-      eventAction: "click:help_button",
-      eventLabel: "Learn more",
+      eventCategory: "lp:grow-small-business-v",
+      eventAction: "click:cta_button",
+      eventLabel: "try semrush free",
       eventValue: null,
     });
   });
@@ -37,7 +37,7 @@ $(document).ready(function () {
   $(".cta_footer_button").click(function () {
     dataLayer.push({
       event: "semrush",
-      eventCategory: "lp:grow-small-business",
+      eventCategory: "lp:grow-small-business-v",
       eventAction: "click:footer_button",
       eventLabel: "try semrush free",
       eventValue: null,
