@@ -1,87 +1,67 @@
 {
   "lang": "en",
 
-  "button": "Try It Free",
+  "button": "try semrush free",
 
   "snippet": {
-    "title": "How To Grow Amazon Sales Without Spending Money on Advertising",
-    "subtitle": "Learn how an eCommerce entrepreneur started small and then grew into a 6-figure online seller, ranking at the top of Amazon search with the help of Semrush’s Sellzone tools.",
-    "pic": "https://static.semrush.com/file/image/sharing_pictures/smb-stories-tamika_EN.png"
+    "title": "Small Business. Big Impact. Make Yours with Semrush",
+    "subtitle": "Grow your business faster with easy-to-use online marketing tools. Attract new customers, save time and money, and get ahead of the competition.",
+    "pic": "https://static.semrush.com/file/image/sharing_pictures/grow-small-business_EN.png"
   },
 
   "main": {
-    "pretitle": "Tamika's 3 steps to",
-    "title": "top-r<span>a</span>nking",
-    "subtitle": "Amazon listings",
-    "text": "Learn how an eCommerce entrepreneur uses Sellzone tools by Semrush to grow her Amazon business without spending a dime on advertising",
-    "button": "Try It Free"
+    "title": "<span class='make_a'>MAKE A</span> <i><span class='big'>BIG</span> <span class='space'>&nbsp;</span><span class='impact'> IMPACT</span></i>",
+    "title-2": "with your <br>small business",
+    "text": "Grow your business faster with easy&#8209;to&#8209;use online marketing tools",
+    "button": "try semrush free"
   },
 
-  "trusted": {"title": "Trusted by"},
-
-  "story": {
-    "text": "Tamika Richie began her ecommerce journey in 2014, selling some of her son’s old toys on Ebay. Today, she's expanded into a full-time 6-figure online seller. <br>Recently, Tamika launched her own black home decor and accessories brand: 100 NormanC. Supported by Sellzone’s tools, her listings rank at the top of Amazon."
+  "stats": {
+    "title": "Can your customers find you online?",
+    "subtitle": "Use Semrush to make sure they do",
+    "item_1": "of shoppers research products and services online before purchasing",
+    "item_2": "of consumers use social media to guide purchasing decisions",
+    "item_3": "of “X near me” mobile searches lead to offline store visits within 24 hours",
+    "note": "*Source: Fundera.com"
   },
 
-  "step": {
-    "main_title": "How Tamika uses Sellzone to get big results for her small business",
-    "item-1_number": "Step 1",
-    "item-1_title": "Find winning keywords",
-    "item-1_text": "Using Sellzone’s Keyword Wizard, Tamika finds relevant and uncommon keywords for her product listings’ “Search terms” field.",
-    "item-1_h4": "Steps to success:",
-    "item-1_step-1_title": "Type",
-    "item-1_step-1_text": "your product name into Keyword Wizard to find hundreds of related keywords",
-    "item-1_step-2_title": "Look",
-    "item-1_step-2_text": "for keywords that indicate uncommon uses of your product, popular misspellings, and synonyms",
-    "item-1_step-3_title": "Add",
-    "item-1_step-3_text": "the keywords to your “Search terms” field, title and bullets. Don’t overstuff your title and bullets with keywords; make them as concise as possible",
-    "item-1_button": "Find my perfect keywords",
-
-    "item-2_number": "Step 2",
-    "item-2_title": "Learn from <br class='br992'>the competition",
-    "item-2_text": "Tamika uses Sellzone’s Traffic Insights tool to gain insight into shoppers’ interests and to research the keywords her competitors’ listings are ranking for.",
-    "item-2_h4": "Steps to success:",
-    "item-2_step-1_title": "Find",
-    "item-2_step-1_text": "listings relevant to your potential customers by looking at the “People also buy” section in your and competitors’ listings",
-    "item-2_step-2_title": "Enter",
-    "item-2_step-2_text": "these listings into the Traffic Insights tool to see what keywords they’re ranking for",
-    "item-2_step-3_title": "Include",
-    "item-2_step-3_text": "these keywords in your search terms and listings’ content to attract more relevant traffic",
-    "item-2_button": "Research your competitors",
-
-    "item-3_number": "Step 3",
-    "item-3_title": "Keep your listings updated",
-    "item-3_text": "Tamika says: “If Amazon says something is optional… it isn’t!” She keeps her listings up-to-date with all the recent Amazon guidelines to ensure top organic performance.",
-    "item-3_h4": "Steps to success:",
-    "item-3_step-1_title": "Type",
-    "item-3_step-1_text": "your ASIN into Sellzone’s Listing Quality Check tool",
-    "item-3_step-2_title": "Check",
-    "item-3_step-2_text": "your listing for incompleteness, Amazon Guidelines fit and content errors, and get recommendations for improvement",
-    "item-3_step-3_title": "Update",
-    "item-3_step-3_text": "the listing to improve your chances of getting a top quality score",
-    "item-3_button": "Audit your listings"
+  "cta1": {
+    "title": "Activate your special offer to try Semrush free for 30 days",
+    "subtitle": "That’s a whole month to get real results from online marketing",
+    "button": "Try semrush free"
   },
 
-  "testimonials": {
-    "title": "Small businesses grow faster with Semrush",
-    "item_1_text": "As an Amazon Seller, I find Sellzone to be a huge help in running my Amazon FBA business. I love that I can spy on my competitors and see for which products they are ranking and where I need to improve on. Together with the Product Research tool, I can find amazing niches on Amazon and the perfect keywords to target these niches.",
-    "item_1_author": "Dan Verboom",
-    "item_1_position": "Amazon Seller at Garlic Press Seller",
+  "cases": {
+    "title": "Small businesses deliver big&nbsp;results with Semrush",
+    
+    "item-1_title": "Smileworks, a Liverpool dental practice, used Semrush digital marketing tools to grow their client base and revenue by 300%",
+    "item-1_text": "“I’ve never seen a local dental practice in the world ranking as much as we are now. We are ranking nationally. Because of the tool. Simple as that.”",
+    "item-1_author": "Ed Challinor",
+    "item-1_position": "Co-Founder & CEO of Smileworks",
+    
+    "item-2_title": "Family bakery used Semrush to rank #1 on Google",
+    "item-2_text": "“We always dreamed of being our own bosses. Using Semrush, we were able to analyze the market and plan our strategy. Ranking #1 for ‘macarons near me’ was the key to our growth. We’ve sold over 1 million macarons!“",
+    "item-2_author": "Anthony Rosemond",
+    "item-2_position": "CEO of Pastreez",
 
-    "item_2_text": "The Sellzone toolkit is extremely intuitive and easy to use. As a former UX engineer, I understand the importance of a robust software system that is simple to use, and Sellzone checks this box. I have no doubt you’ll see great results shortly after using Sellzone.",
-    "item_2_author": "Zach Zorn",
-    "item_2_position": "Owner at Money Nomad",
-
-    "item_3_text": "Sellzone is essential to any brand serious about scaling their Amazon business. We use it extensively for Split Testing, Listing Quality checks, and Traffic insights. So much so that we’ve made Sellzone part of our software stack for any brand working with us. Highly recommended!”",
-    "item_3_author": "Will Haire",
-    "item_3_position": "CEO &amp; Founder at BellaVix"
+    "item-3_title": "Free fitness site achieved first-ever six figure ad revenue with Semrush",
+    "item-3_text": "“Using Semrush, I’ve managed to outrank the major fitness magazines for high-volume keywords by being strategic and smart. The tool helped me monetize our website and reach 6-figure ad revenue in 6 months. I wish I had invested in our SEO strategy sooner!”",
+    "item-3_author": "Lindsey Bomgren",
+    "item-3_position": "Owner of Nourish Move Love"
+  },
+  
+  "cta": {
+    "title": "Marketing not your area of&nbsp;expertise? No problem.",
+    "subtitle": "Semrush’s suite of tools are designed to help you grow",
+    "button": "Try semrush free",
+    "text": "Along with your special extended trial, you’ll receive guidance and helpful tips—delivered to your inbox—on how to use Semrush to improve your online visibility and reach more customers."
   },
 
-  "trophy": {
-    "title": "Let Sellzone be part of your Amazon business success story",
-    "button": "Try It Free"
+  "prefooter": {
+    "title-1": "small business",
+    "title-2": "big impact"
   },
- 
+
   "footer": {
     "rights": "All&nbsp;rights&nbsp;reserved.",
     "legal": "Terms of Use",

@@ -1,28 +1,28 @@
 /*************** FONTS Factor A ***************/
 @font-face {
   font-family: 'Factor';
-  src: url(../fonts/Semrush-FactorA-Black.woff);
+  src: url(../fonts/FactorA-Black.woff);
   font-style: normal;
   font-weight: 800;
   font-display: swap
 }
 @font-face {
   font-family: 'Factor';
-  src: url(../fonts/Semrush-FactorA-Bold.woff);
+  src: url(../fonts/FactorA-Bold.woff);
   font-style: normal;
   font-weight: 700;
   font-display: swap
 }
 @font-face {
   font-family: 'Factor';
-  src: url(../fonts/Semrush-FactorA-Medium.woff);
+  src: url(../fonts/FactorA-Medium.woff);
   font-style: normal;
   font-weight: 500;
   font-display: swap
 }
 @font-face {
   font-family: 'Factor';
-  src: url(../fonts/Semrush-FactorA-Regular.woff);
+  src: url(../fonts/FactorA-Regular.woff);
   font-style: normal;
   font-weight: 400;
   font-display: swap
@@ -139,8 +139,11 @@ a {
  a.button {
   font-family: "Inter", Arial, sans-serif !important;
   width: auto;
+  height: 56px;
+  line-height: 56px;
   font-size: 18px;
   font-weight: 400;
+  padding: 0 72px;
   background-color: #FF622D;
   color: #fff;
   border-radius: 6px;
@@ -180,6 +183,8 @@ a.line_button {
     max-width: 340px;
     width: 100%;
     padding: 0 16px;
+    height: 60px;
+    line-height: 60px;
     font-size: 20px;
   }
 }
