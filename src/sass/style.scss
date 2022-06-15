@@ -730,6 +730,9 @@ h1 {
       background: linear-gradient(90deg, $yellow-bg, $yellow-bg 41%, #fff 41%);
       h2 {margin-bottom: 20px;}
     }  
+    @media (min-width: 1200px) {
+      padding-top: 120px;
+    }  
   }
   &__item {
     padding-top: 65px;
@@ -943,9 +946,9 @@ h1 {
       }
     }
     @media (min-width: 1200px) {
-      img {
-        height: auto;
-      }
+      padding-top: 120px;
+      &.cta1 { padding-top: 100px; }
+      img { height: auto; }
     }
     p {color: #fff;}
     p.subtitle {
