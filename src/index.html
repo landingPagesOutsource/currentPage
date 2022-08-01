@@ -25,10 +25,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css?">
+    <link rel="stylesheet" href="../css/animate.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="icon" rel='preload' href="../img/favicon.ico">
     <link rel="stylesheet" rel='preload' href="../css/aos.css">
+    
 
     <script>
         window.lang = "${{ index.lang }}$";
@@ -47,8 +49,8 @@
     <meta name="twitter:description" content="${{ index.snippet.subtitle }}$" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content="${{ index.snippet.subtitle }}$" />
-    <meta property="og:url" content="https://www.semrush.com/lp/grow-small-business-v/${{ index.lang }}$/" />
-    <link rel="canonical" href="https://www.semrush.com/lp/grow-small-business-v/${{ index.lang }}$/" />
+    <meta property="og:url" content="https://www.semrush.com/lp/grow-small-business-1/${{ index.lang }}$/" />
+    <link rel="canonical" href="https://www.semrush.com/lp/grow-small-business-1/${{ index.lang }}$/" />
     <meta name="title" content="${{ index.snippet.title }}$" />
     <meta name="description" content="${{ index.snippet.subtitle }}$" />
 
@@ -61,6 +63,7 @@
     <!-- script -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../js/wow.js"></script>
 
     <script>
         // Send FB cookie to cs5
@@ -83,7 +86,7 @@
             'dimension5': getDm5(),
             '&email': getEmail(),
             'forceSSL': true,
-            'groupOfPages': 'lp:grow-small-business-v'
+            'groupOfPages': 'lp:grow-small-business-1'
         });
 
         // trebuchet
@@ -191,7 +194,7 @@
               </div>
               <!-- navigation-button -->
               <div class="col-10 col-md-6 col-lg-5 header-button">
-                <a href="https://www.semrush.com/subscribe/?offer=f6gp43oh&redirect_to=%2Fanalytics%2Foverview%2F?searchType=domain" class="line_button cta_line_button">${{ index.button }}$</a>
+                <a href="https://www.semrush.com/signup/?src=lp-grow-small-business-en&trial=force" class="line_button cta_line_button">${{ index.button }}$</a>
               </div>
             </div>
           </div>
@@ -202,27 +205,27 @@
       <!-- content -->
       <div class="container main__container">
         <div class="content main__content">
-          <h2 class="make">make a</h2>
-          <h2 class="big mobile">big</h2>
-          <h2 class="impact mobile">impact</h2>
-          <h2 class="desktop">big impact</h2>
+          <h2 class="pretitle wow fadeInUp" data-wow-offset="150" data-wow-delay="0s">${{ index.main.title-1_1 }}$</h2>
+          <h2 class="mobile than wow fadeInUp" data-wow-offset="150" data-wow-delay=".1s">${{ index.main.title-1_2 }}$</h2>
+          <h2 class="mobile business wow fadeInUp" data-wow-offset="150" data-wow-delay=".4s">${{ index.main.title-1_3 }}$</h2>
+          <h2 class="desktop wow fadeInUp" data-wow-offset="150" data-wow-delay=".25s">${{ index.main.title-1_4 }}$</h2>
           
             <div class="main__wrap wrap-lg">
 
-              <div class="main__img">
+              <div class="main__img wow fadeInRight" data-wow-offset="150" data-wow-delay=".25s">
                 <picture alt="" class="main__img-mob">
-                  <source srcset="../img/main-img-mob_x1.webp,
-                                  ../img/main-img-mob_x2.webp 2x" type="image/webp" />
-                  <source srcset="../img/main-img-mob_x2.png 2x" />
-                  <img src="../img/main-img-mob_x1.png" alt="" />
+                  <source srcset="../img/main-img_x1.webp,
+                                  ../img/main-img_x2.webp 2x" type="image/webp" />
+                  <source srcset="../img/main-img_x2.png 2x" />
+                  <img src="../img/main-img_x1.png" alt="" />
                 </picture>
 
                 <div class="main__img-desktop">
                   <picture alt="">
-                    <source srcset="../img/main-img-desktop_x1.webp,
-                                    ../img/main-img-desktop_x2.webp 2x" type="image/webp" />
-                    <source srcset="../img/main-img-desktop_x2.png 2x" />
-                    <img src="../img/main-img-desktop_x1.png" alt="" />
+                    <source srcset="../img/main-img_x1.webp,
+                                    ../img/main-img_x2.webp 2x" type="image/webp" />
+                    <source srcset="../img/main-img_x2.png 2x" />
+                    <img src="../img/main-img_x1.png" alt="" />
                   </picture>
                 </div> 
               </div>
@@ -232,12 +235,12 @@
                   <source srcset="../img/main-img-s_x1.webp,
                                   ../img/main-img-s_x2.webp 2x" type="image/webp" />
                   <source srcset="../img/main-img-s_x2.png 2x" />
-                  <img src="../img/main-img-s_x1.png" alt="" />
+                  <img src="../img/main-img-s_x1.png" alt="" class="wow fadeInUp" data-wow-offset="150" data-wow-delay=".5s" />
                 </picture>
-                <p class="main__title-2">${{ index.main.title-2 }}$</p>
-                <p class="main__text-p">${{ index.main.text }}$</p>
-                <div class="main__text-btn-wrap">
-                  <a href="https://www.semrush.com/subscribe/?offer=f6gp43oh&redirect_to=%2Fanalytics%2Foverview%2F?searchType=domain" class="button cta_main_button">${{ index.main.button }}$</a>
+                <p class="main__title-2 wow fadeInUp" data-wow-offset="150" data-wow-delay=".6s">${{ index.main.title-2 }}$</p>
+                <p class="main__text-p wow fadeInUp" data-wow-offset="150" data-wow-delay=".7s">${{ index.main.text }}$</p>
+                <div class="main__text-btn-wrap wow fadeInUp" data-wow-offset="0" data-wow-delay=".8s">
+                  <a href="https://www.semrush.com/signup/?src=lp-grow-small-business-en&trial=force" class="button cta_main_button">${{ index.main.button }}$</a>
                 </div>
               </div>
 
@@ -250,173 +253,152 @@
     <!-- main-screen ends -->
 
 
-    <!-- stats-screen -->
+    <!-- tools-screen -->
 
-    <section class="stats-screen screen">
-
+    <section class="tools-screen screen">
       <div class="container">
-        <h2 class="h2_sub">${{ index.stats.title }}$</h2>
-        <p class="subtitle">${{ index.stats.subtitle }}$</p>
+        <div class="tools__wrap wrap">
           
-        <div class="stats__wrap wrap">
           <!-- 1 -->
-          <div class="stats__item col-lg-4">
-            <p class="stats__number">81%</p>
-            <p class="stats__text">${{ index.stats.item_1 }}$</p>
+          <div class="tools__item standart-item col-lg-6">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player class="img" src="https://assets1.lottiefiles.com/private_files/lf30_mlejj1ow.json" background="transparent" speed="1" style="width: 130px; height: 130px;" loop autoplay></lottie-player>
+            <div class="standart-item__wrap">
+              <div>
+                <h4>${{ index.tools.item-1_title }}$</h4>
+                <p>${{ index.tools.item-1_text }}$</p>
+              </div>
+              <a href="https://www.semrush.com/seo/" class="button cta_tools-1_button">${{ index.tools.item-1_button }}$</a>
+            </div>
           </div>
 
           <!-- 2 -->
-          <div class="stats__item col-lg-4">
-            <p class="stats__number">74%</p>
-            <p class="stats__text">${{ index.stats.item_2 }}$</p>
+          <div class="tools__item standart-item col-lg-6">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player class="img" src="https://assets8.lottiefiles.com/private_files/lf30_w8hhwbvy.json" background="transparent" speed="1" style="width: 130px; height: 130px;" loop autoplay></lottie-player>
+            <div class="standart-item__wrap">
+              <div>
+                <h4>${{ index.tools.item-2_title }}$</h4>
+                <p>${{ index.tools.item-2_text }}$</p>
+              </div>
+              <a href="https://www.semrush.com/listings-management/local-seo/" class="button cta_tools-2_button">${{ index.tools.item-2_button }}$</a>
+            </div>
           </div>
 
           <!-- 3 -->
-          <div class="stats__item col-lg-4">
-            <p class="stats__number">75%</p>
-            <p class="stats__text">${{ index.stats.item_3 }}$</p>
+          <div class="tools__item standart-item col-lg-6">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player class="img" src="https://assets5.lottiefiles.com/private_files/lf30_yswy3mh2.json" background="transparent" speed="1" style="width: 130px; height: 130px;" loop autoplay></lottie-player>
+            <div class="standart-item__wrap">
+              <div>
+                <h4>${{ index.tools.item-3_title }}$</h4>
+                <p>${{ index.tools.item-3_text }}$</p>
+              </div>
+              <a href="https://www.semrush.com/trends/" class="button cta_tools-3_button">${{ index.tools.item-3_button }}$</a>
+            </div>
           </div>
-        </div>   
-        <p class="stats__notice">${{ index.stats.note }}$</a></p> 
+
+          <!-- 4 -->
+          <div class="tools__item standart-item col-lg-6">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player class="img" src="https://assets10.lottiefiles.com/private_files/lf30_ahmrcafb.json" background="transparent" speed="1" style="width: 130px; height: 130px;" loop autoplay></lottie-player>
+            <div class="standart-item__wrap">
+              <div>
+                <h4>${{ index.tools.item-4_title }}$</h4>
+                <p>${{ index.tools.item-4_text }}$</p>
+              </div>
+              <a href="https://www.semrush.com/lp/social-media-toolkit/en/" class="button cta_tools-4_button">${{ index.tools.item-4_button }}$</a>
+            </div>
+          </div>
+
+          <!-- 5 -->
+          <div class="tools__item standart-item col-lg-6">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player class="img" src="https://assets7.lottiefiles.com/private_files/lf30_e6mwkvop.json" background="transparent" speed="1" style="width: 130px; height: 130px;" loop autoplay></lottie-player>
+            <div class="standart-item__wrap">
+              <div>
+                <h4>${{ index.tools.item-5_title }}$</h4>
+                <p>${{ index.tools.item-5_text }}$</p>
+              </div>
+              <a href="https://lp.sellzone.com/sellzone_toolkit.html" class="button cta_tools-5_button">${{ index.tools.item-5_button }}$</a>
+            </div>
+          </div>
+
+          <!-- 6 -->
+          <div class="tools__item standart-item col-lg-6">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player class="img" src="https://assets5.lottiefiles.com/private_files/lf30_2kfgwq4e.json" background="transparent" speed="1" style="width: 130px; height: 130px;" loop autoplay></lottie-player>
+            <div class="standart-item__wrap">
+              <div>
+                <h4>${{ index.tools.item-6_title }}$</h4>
+                <p>${{ index.tools.item-6_text }}$</p>
+              </div>
+              <a href="https://www.semrush.com/ppc/" class="button cta_tools-6_button">${{ index.tools.item-6_button }}$</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- attract-screen ends -->
+
+
+    <!-- help-screen -->
+
+    <section class="help-screen screen">
+      <div class="container">
+        <p class="subtitle wow fadeInUp" data-wow-offset="150" data-wow-delay="0s">${{ index.help.subtitle }}$</p>
         
-        <div class="attract__wrap wrap">
-          <!-- 1 -->
-          <div class="attract__item standart-item col-lg-4">
-            <img src="../img/attract_1.svg" alt="">
-            <p>Attract new <br>customers</p>
+        <div class="help__wrap wrap">
+          
+          <div class="help__item img col-lg-6">
+            <div class="help__img wow fadeInLeft" data-wow-offset="150" data-wow-delay=".15s">
+              <picture alt="">
+                <source srcset="../img/help-img_x1.webp,
+                                ../img/help-img_x2.webp 2x" type="image/webp" />
+                <source srcset="../img/help-img_x2.png 2x" />
+                <img src="../img/help-img_x1.png" alt="" />
+              </picture>
+            </div>
           </div>
-
-          <!-- 2 -->
-          <div class="attract__item standart-item col-lg-4">
-            <img src="../img/attract_2.svg" alt="">
-            <p>Save time and money on marketing</p>
-          </div>
-
-          <!-- 3 -->
-          <div class="attract__item standart-item col-lg-4">
-            <img src="../img/attract_3.svg" alt="">
-            <p>Get ahead of your competitors</p>
+          
+          <div class="help__item text col-lg-5">
+            <p class="subtitle_2 wow fadeInRight" data-wow-offset="150" data-wow-delay=".15s">${{ index.help.subtitle }}$</p>
+            <p class="wow fadeInRight" data-wow-offset="150" data-wow-delay=".3s">${{ index.help.text }}$</p>
+            <a href="https://www.semrush.com/company/stories/pastreez/" class="button cta_help_button wow fadeInRight" data-wow-offset="150" data-wow-delay=".45s">${{ index.help.button }}$</a>
           </div>
         </div>
-
+        
       </div>
     </section>
 
-    <!-- stats-screen ends -->
-
-
-    <!-- cta-screen -->
-
-    <section class="cta-screen cta1 screen">
-      <picture alt="">
-        <source srcset="../img/cta-img-1_x1.webp,
-                        ../img/cta-img-1_x2.webp 2x" type="image/webp" />
-        <source srcset="../img/cta-img-1_x2.png 2x" />
-        <img src="../img/cta-img-1_x1.png" alt="" class="cta__img-1" />
-      </picture>
-      <picture alt="">
-        <source srcset="../img/cta-img-2_x1.webp,
-                        ../img/cta-img-2_x2.webp 2x" type="image/webp" />
-        <source srcset="../img/cta-img-2_x2.png 2x" />
-        <img src="../img/cta-img-2_x1.png" alt="" class="cta__img-2" />
-      </picture>
-      <div class="container">
-        <h2 class="h2_sub">${{ index.cta1.title }}$</h2>
-        <p class="subtitle">${{ index.cta1.subtitle }}$</p>
-        <a href="https://www.semrush.com/subscribe/?offer=f6gp43oh&redirect_to=%2Fanalytics%2Foverview%2F?searchType=domain" class="button mb0 cta_cta_button">${{ index.cta1.button }}$</a>
-      </div>
-    </section>
-
-    <!-- cta-screen ends -->
-
-
-    <!-- cases-screen -->
-
-    <section class="cases-screen screen">
-      
-      <div class="container">
-        <h2>${{ index.cases.title }}$</h2>
-      </div>      
-
-      <!-- 1 -->
-      <div class="cases__item first">
-        <div class="container wrap">
-          <!-- img -->
-          <div class="cases__img col-lg-6">
-            <picture alt="">
-              <source srcset="../img/cases-img-1_x1.webp,
-                              ../img/cases-img-1_x2.webp 2x" type="image/webp" />
-              <source srcset="../img/cases-img-1_x2.png 2x" />
-              <img src="../img/cases-img-1_x1.png" alt="" />
-            </picture>
-          </div>
-          <!-- text -->
-          <div class="cases__text col-lg-5">
-            <h4>${{ index.cases.item-1_title }}$</h4>
-            <p>${{ index.cases.item-1_text }}$</p>
-            <p class="author">${{ index.cases.item-1_author }}$</p>
-            <p class="position">${{ index.cases.item-1_position }}$</p>
-          </div>
-        </div>
-      </div> 
-
-      <!-- 2 -->
-      <div class="cases__item">
-        <div class="container wrap">
-          <!-- img -->
-          <div class="cases__img col-lg-6">
-            <picture alt="">
-              <source srcset="../img/cases-img-2_x1.webp,
-                              ../img/cases-img-2_x2.webp 2x" type="image/webp" />
-              <source srcset="../img/cases-img-2_x2.png 2x" />
-              <img src="../img/cases-img-2_x1.png" alt="" />
-            </picture>
-          </div>
-          <!-- text -->
-          <div class="cases__text col-lg-5">
-            <h4>${{ index.cases.item-2_title }}$</h4>
-            <p>${{ index.cases.item-2_text }}$</p>
-            <p class="author">${{ index.cases.item-2_author }}$</p>
-            <p class="position">${{ index.cases.item-2_position }}$</p>
-          </div>
-        </div>
-      </div> 
-
-      <!-- 3 -->
-      <div class="cases__item last">
-        <div class="container wrap">
-          <!-- img -->
-          <div class="cases__img col-lg-6">
-            <picture alt="">
-              <source srcset="../img/cases-img-3_x1.webp,
-                              ../img/cases-img-3_x2.webp 2x" type="image/webp" />
-              <source srcset="../img/cases-img-3_x2.png 2x" />
-              <img src="../img/cases-img-3_x1.png" alt="" />
-            </picture>
-          </div>
-          <!-- text -->
-          <div class="cases__text col-lg-5">
-            <h4>${{ index.cases.item-3_title }}$</h4>
-            <p>${{ index.cases.item-3_text }}$</p>
-            <p class="author">${{ index.cases.item-3_author }}$</p>
-            <p class="position">${{ index.cases.item-3_position }}$</p>
-          </div>
-        </div>
-      </div> 
-    
-    </section>
-
-    <!-- cases-screen ends -->
+    <!-- help-screen ends -->
 
 
     <!-- cta-screen -->
 
     <section class="cta-screen screen">
       <div class="container">
-        <h2 class="h2_sub">${{ index.cta.title }}$</h2>
-        <p class="subtitle">${{ index.cta.subtitle }}$</p>
-        <a href="https://www.semrush.com/subscribe/?offer=f6gp43oh&redirect_to=%2Fanalytics%2Foverview%2F?searchType=domain" class="button cta_footer_button">${{ index.cta.button }}$</a>
-        <p class="cta__text">${{ index.cta.text }}$</p>
+
+        <div class="cta__wrap">
+
+          <div class="cta__item img col-lg-6 wow fadeInRight" data-wow-offset="150" data-wow-delay=".15s">
+            <picture alt="">
+              <source srcset="../img/cta_x1.webp,
+                              ../img/cta_x2.webp 2x" type="image/webp" />
+              <source srcset="../img/cta_x2.png 2x" />
+              <img src="../img/cta_x1.png" alt="" />
+            </picture>
+          </div>
+  
+          <div class="cta__item text col-lg-6">
+            <h2 class="wow fadeInLeft" data-wow-offset="150" data-wow-delay=".15s">${{ index.cta.title }}$</h2>
+            <<a href="https://www.semrush.com/signup/?src=lp-grow-small-business-en&trial=force" class="button cta_footer_button wow fadeInLeft" data-wow-offset="150" data-wow-delay=".3s">${{ index.cta.button }}$</a>
+          </div>
+
+        </div>
+
       </div>
     </section>
 
@@ -426,10 +408,10 @@
     <!-- prefooter-screen -->
 
     <section class="prefooter-screen screen">
-        <div class="prefooter__wrap">
-          <div class="container main__container">
-          <p class="prefooter__title title-1">${{ index.prefooter.title-1 }}$</p>
-          <p class="prefooter__title title-2">${{ index.prefooter.title-2 }}$</p>
+      <div class="prefooter__wrap">
+        <div class="container main__container">
+          <p class="prefooter__title title-1 wow fadeInUp" data-wow-offset="150" data-wow-delay="0s">${{ index.prefooter.title-1 }}$</p>
+          <p class="prefooter__title title-2 wow fadeInUp" data-wow-offset="150" data-wow-delay=".1s">${{ index.prefooter.title-2 }}$</p>
         </div>
       </div>
     </section>
@@ -487,16 +469,21 @@
         }());
     </script>
 
-<script>
-  $(document).ready(function () {
-      AOS.init({
-          duration: 400,
-          disable: 'mobile',
-          once: true,
+    <script>
+      $(document).ready(function () {
+          AOS.init({
+              duration: 400,
+              disable: 'mobile',
+              once: true,
+          });
       });
-  });
 
-</script>
+    </script>
+
+    <!-- SCRIPTS -->
+    <script>
+      new WOW().init();
+    </script>
     
   </body>
 

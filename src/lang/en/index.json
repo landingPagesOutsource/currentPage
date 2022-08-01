@@ -4,62 +4,63 @@
   "button": "try semrush free",
 
   "snippet": {
-    "title": "Small Business. Big Impact. Make Yours with Semrush",
-    "subtitle": "Grow your business faster with easy-to-use online marketing tools. Attract new customers, save time and money, and get ahead of the competition.",
-    "pic": "https://static.semrush.com/file/image/sharing_pictures/grow-small-business_EN.png"
+    "title": "Grow Your Small Business Faster with Semrush",
+    "subtitle": "For everything your small business needs to grow, there’s Semrush. Save time and money with an all-in-one marketing platform.",
+    "pic": "https://static.semrush.com/file/image/sharing_pictures/grow-small-business-1_EN.png"
   },
 
   "main": {
-    "title": "<span class='make_a'>MAKE A</span> <i><span class='big'>BIG</span> <span class='space'>&nbsp;</span><span class='impact'> IMPACT</span></i>",
-    "title-2": "with your <br>small business",
-    "text": "Grow your business faster with easy&#8209;to&#8209;use online marketing tools",
-    "button": "try semrush free"
+    "title-1_1": "YOU’RE growing more than",
+    "title-1_2": "than A",
+    "title-1_3": "b<span>u</span>siness",
+    "title-1_4": "a b<span>u</span>siness",
+    "title-2": "Let’s make your<br>dreams a reality",
+    "text": "For everything your small business needs to grow, there’s Semrush. Save time and money with an all&#8209;in&#8209;one marketing platform.",
+    "button": "try it free"
   },
 
-  "stats": {
-    "title": "Can your customers find you online?",
-    "subtitle": "Use Semrush to make sure they do",
-    "item_1": "of shoppers research products and services online before purchasing",
-    "item_2": "of consumers use social media to guide purchasing decisions",
-    "item_3": "of “X near me” mobile searches lead to offline store visits within 24 hours",
-    "note": "*Source: Fundera.com"
+  "tools": {
+    "item-1_title": "Help customers find your business online",
+    "item-1_text": "Get seen on Google, attract more customers, and get them to your site.",
+    "item-1_button": "learn more about seo",
+
+    "item-2_title": "Gain loyal, local customers",
+    "item-2_text": "Drive visits to your business —online and in-store.",
+    "item-2_button": "Reach your local audience",
+
+    "item-3_title": "<i class='whitespace1200'>Challenge the competition</i>",
+    "item-3_text": "See what your competitors are doing online to create a unique strategy that puts you one step ahead.",
+    "item-3_button": "X-ray your competition",
+
+    "item-4_title": "Be the talk of your town",
+    "item-4_text": "Access free social media tools<br class='br1200'>to get more people talking about your brand.",
+    "item-4_button": "Amp up your social media",
+
+    "item-5_title": "Elevate your exposure on&nbsp;Amazon",
+    "item-5_text": "Showcase your products, raise your brand visibility, and increase cash flow.",
+    "item-5_button": "Win more Amazon sales",
+
+    "item-6_title": "Run smarter advertising campaigns",
+    "item-6_text": "Get tools that make it easy to set up and run effective ad campaigns.",
+    "item-6_button": "Spend your dollars wisely"
+
   },
 
-  "cta1": {
-    "title": "Activate your special offer to try Semrush free for 30 days",
-    "subtitle": "That’s a whole month to get real results from online marketing",
-    "button": "Try semrush free"
+  "help": {
+    "title": "Helping small businesses make a big impact",
+    "subtitle": "Semrush’s platform helps business owners around the world grow to their full potential",
+    "text": "Learn how <b>Pastreez bakery</b> used Semrush to rank #1 on Google and supercharge their growth",
+    "button": "Learn more"
   },
 
-  "cases": {
-    "title": "Small businesses deliver big&nbsp;results with Semrush",
-    
-    "item-1_title": "Smileworks, a Liverpool dental practice, used Semrush digital marketing tools to grow their client base and revenue by 300%",
-    "item-1_text": "“I’ve never seen a local dental practice in the world ranking as much as we are now. We are ranking nationally. Because of the tool. Simple as that.”",
-    "item-1_author": "Ed Challinor",
-    "item-1_position": "Co-Founder & CEO of Smileworks",
-    
-    "item-2_title": "Family bakery used Semrush to rank #1 on Google",
-    "item-2_text": "“We always dreamed of being our own bosses. Using Semrush, we were able to analyze the market and plan our strategy. Ranking #1 for ‘macarons near me’ was the key to our growth. We’ve sold over 1 million macarons!“",
-    "item-2_author": "Anthony and Yami Rosemond",
-    "item-2_position": "Founders of Pastreez",
-
-    "item-3_title": "Free fitness site Nourish Move Love boosted organic traffic 150% and accelerated their growth",
-    "item-3_text": "“Using Semrush, I’ve managed to outrank the major fitness magazines for high-volume keywords by being strategic and smart. The tool helped me monetize our website and reach 6-figure ad revenue in 6 months. I wish I had invested in our SEO strategy sooner!”",
-    "item-3_author": "Lindsey Bomgren",
-    "item-3_position": "Owner of Nourish Move Love"
-  },
-  
   "cta": {
-    "title": "Marketing not your area of&nbsp;expertise? No problem.",
-    "subtitle": "Semrush’s suite of tools are designed to help you grow",
-    "button": "Try semrush free",
-    "text": "Along with your special extended trial, you’ll receive guidance and helpful tips—delivered to your inbox—on how to use Semrush to improve your online visibility and reach more customers."
+    "title": "Do big things with your small business",
+    "button": "Try it free"
   },
 
   "prefooter": {
-    "title-1": "small business",
-    "title-2": "big impact"
+    "title-1": "YOU’RE growing more than",
+    "title-2": "a b<span>u</span>siness"
   },
 
   "footer": {

@@ -1,28 +1,28 @@
 /*************** FONTS Factor A ***************/
 @font-face {
   font-family: 'Factor';
-  src: url(../fonts/FactorA-Black.woff);
+  src: url(../fonts/Semrush-FactorA-Black.woff);
   font-style: normal;
   font-weight: 800;
   font-display: swap
 }
 @font-face {
   font-family: 'Factor';
-  src: url(../fonts/FactorA-Bold.woff);
+  src: url(../fonts/Semrush-FactorA-Bold.woff);
   font-style: normal;
   font-weight: 700;
   font-display: swap
 }
 @font-face {
   font-family: 'Factor';
-  src: url(../fonts/FactorA-Medium.woff);
+  src: url(../fonts/Semrush-FactorA-Medium.woff);
   font-style: normal;
   font-weight: 500;
   font-display: swap
 }
 @font-face {
   font-family: 'Factor';
-  src: url(../fonts/FactorA-Regular.woff);
+  src: url(../fonts/Semrush-FactorA-Regular.woff);
   font-style: normal;
   font-weight: 400;
   font-display: swap
@@ -217,6 +217,10 @@ h2 {
   color: #171A22;  
   margin-bottom: 96px;
   -webkit-font-smoothing: antialiased;
+  span {
+    -webkit-font-feature-settings: 'ss01'on;
+    font-feature-settings: 'ss01'on;
+  }
 }
 
 h3 {
