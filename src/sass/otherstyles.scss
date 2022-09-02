@@ -1,28 +1,22 @@
 /*************** FONTS Factor A ***************/
 @font-face {
   font-family: 'Factor';
-  src: url(../fonts/Semrush-FactorA-Black.woff);
-  font-style: normal;
-  font-weight: 800;
-  font-display: swap
-}
-@font-face {
-  font-family: 'Factor';
-  src: url(../fonts/Semrush-FactorA-Bold.woff);
+  src: url(../fonts/FactorA-Bold.woff);
   font-style: normal;
   font-weight: 700;
   font-display: swap
 }
 @font-face {
   font-family: 'Factor';
-  src: url(../fonts/Semrush-FactorA-Medium.woff);
+  src: url(../fonts/FactorA-Medium.woff);
   font-style: normal;
   font-weight: 500;
   font-display: swap
 }
+
 @font-face {
   font-family: 'Factor';
-  src: url(../fonts/Semrush-FactorA-Regular.woff);
+  src: url(../fonts/FactorA-Regular.woff);
   font-style: normal;
   font-weight: 400;
   font-display: swap
@@ -197,18 +191,18 @@ a.line_button {
 /*************** TYPOGRAPHIC ***************/
 
 h1 {
-  font-family: Factor, Arial, sans-serif;
+  font-family: Factor !important;
   font-size: 60px;
   font-weight: 700;
   line-height: 110%;
-  color: #171A22;
+  color: #fff;
   text-align: left;
   margin-bottom: 24px;
   -webkit-font-smoothing: antialiased;
 }
 
 h2 {
-  font-family: Factor, Arial, sans-serif;
+  font-family: Factor;
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -220,18 +214,18 @@ h2 {
 }
 
 h3 {
-  font-family: Factor, Arial, sans-serif;
+  font-family: Factor;
   font-style: normal;
   font-weight: 700;
-  font-size: 50px;
-  line-height: 110%;
+  font-size: 40px;
+  line-height: 130%;
   color: #171A22;
   margin-bottom: 8px;
   -webkit-font-smoothing: antialiased;
 }
 
 h4 {
-  font-family: Factor, Arial, sans-serif;
+  font-family: Factor;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -242,7 +236,7 @@ h4 {
 }
 
 h5 {
-  font-family: Factor, Arial, sans-serif;
+  font-family: Factor;
   text-align: left;
   font-style: normal;
   font-weight: 700;
@@ -254,7 +248,7 @@ h5 {
 }
 
 h6 {
-  font-family: Factor, Arial, sans-serif;
+  font-family: Factor;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -276,7 +270,7 @@ p, td {
 }
 
 p.subtitle {
-  font-family: "Factor", Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 21px;
@@ -292,7 +286,7 @@ li {
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
-  color: #3E424B;
+  color: #171A22;
   mix-blend-mode: normal;
   margin-bottom: 8px;
   padding-left: 16px;
@@ -300,11 +294,11 @@ li {
     position: absolute;
     content: '';
     left: 0;
-    top: 10px;
+    top: 12px;
     width: 5px;
     height: 5px;
     border-radius: 50%;
-    background: #3E424B;
+    background: #171A22;
   }
   &:last-of-type {
     margin-bottom: 0px;
@@ -313,15 +307,7 @@ li {
 
 
 @media screen and (max-width: 1199.98px) {
-  h1, h2, h3, h4, h5, h6, p, li, a {
-    // br {
-    //   display: none !important;
-    // }
-  }
-  h1 {
-    font-size: 50px;
-    line-height: 115%;
-  }
+ 
 }
 
 @media screen and (max-width: 1024.98px) {
@@ -329,7 +315,10 @@ li {
 }
 
 @media screen and (max-width: 991.98px) {
-  
+  h1 {
+    font-size: 60px;
+    line-height: 115%;
+  }
 }
 
 @media screen and (max-width: 767.98px) {
@@ -363,12 +352,19 @@ li {
     font-size: 16px;
     line-height: 150%;    
   }
+  p.subtitle {
+    font-size: 18px;
+    line-height: 150%;
+  }
 }
 
 @media screen and (max-width: 575.98px) {
   td {
     font-size: 11px;
     line-height: 150%;    
+  }
+  p.subtitle {
+    margin-bottom: 32px;
   }
 }
 
@@ -385,14 +381,14 @@ li {
 }
 
 @media screen and (max-width: 375.98px) {
-  h2 {
+  h1 {
     font-size: 30px;
-  }
-  h3 {
-    font-size: 24px;
+    line-height: 120%;  
   }
 }
 
 @media screen and (max-width: 320.98px) {
-  
+h2 {
+  font-size: 30px;
+  }
 }

@@ -41,12 +41,6 @@ html {
   }
 }
 
-@media (min-width: 1300px) {
-  .container {
-      max-width:1210px
-  }
-}
-
 .row {
   display: -ms-flexbox;
   display: -webkit-box;
@@ -57,15 +51,11 @@ html {
   margin-left: -15px
 }
 
-.col-10,.col-12,.col-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-7,.col-md-3,.col-md-4,.col-md-6,.col-xl-6 {
+.col-10,.col-12,.col-2,.col-lg-10,.col-lg-3,.col-lg-4,.col-lg-6,.col-md-4,.col-md-6 {
   position: relative;
   width: 99%;
   padding-right: 15px;
   padding-left: 15px
-}
-.col-lg-6 {
-  position: relative;
-  width: 99%;
 }
 
 .col-2 {
@@ -107,12 +97,10 @@ html {
 }
 
 @media (min-width: 992px) {
-
   .col-lg-3 {
-      -ms-flex: 0 0 25%;
-      -webkit-box-flex: 0;
-      flex: 0 0 25%;
-      max-width: 24%
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 24%;
   }
 
   .col-lg-4 {
@@ -123,34 +111,40 @@ html {
   }
 
   .col-lg-5 {
-      -ms-flex: 0 0 41.666667%;
-      -webkit-box-flex: 0;
-      flex: 0 0 41.666667%;
-      max-width: 41.566667%
+    -ms-flex: 0 0 41.666%;
+    -webkit-box-flex: 0;
+    flex: 0 0 41.666%;
+    max-width: 40%
   }
 
   .col-lg-6 {
-    -ms-flex: 0 0 48.3870968%;
-    -webkit-box-flex: 0;
-    flex: 0 0 48.3870968%;
-    max-width: 48.3870968%
-}
-
-  .col-lg-7 {
-      -ms-flex: 0 0 58.333333%;
-      -webkit-box-flex: 0;
-      flex: 0 0 58.333333%;
-      max-width: 58.233333%
-  }
-}
-
-@media (min-width: 1200px) {
-
-  .col-xl-6 {
       -ms-flex: 0 0 50%;
       -webkit-box-flex: 0;
       flex: 0 0 50%;
       max-width: 49%
+  }
+
+  .col-lg-8 {
+    -ms-flex: 0 0 66.666%;
+    -webkit-box-flex: 0;
+    flex: 0 0 66.666%;
+    max-width: 65%
+  }
+
+  .col-lg-10 {
+      -ms-flex: 0 0 83.333333%;
+      -webkit-box-flex: 0;
+      flex: 0 0 83.333333%;
+      max-width: 83.233333%
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-9 {
+    -ms-flex: 0 0 75%;
+    -webkit-box-flex: 0;
+    flex: 0 0 75%;
+    max-width: 74%
   }
 }
 
@@ -170,12 +164,6 @@ html {
   -ms-flex-pack: justify!important;
   -webkit-box-pack: justify!important;
   justify-content: space-between!important
-}
-
-.align-items-start {
-  -ms-flex-align: start!important;
-  -webkit-box-align: start!important;
-  align-items: flex-start!important
 }
 
 .align-items-center {

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="${{ index.lang }}$">
 
-  <head>
+<head>
     <meta name="robots" content="noindex, nofollow" />
     <meta charset="UTF-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -18,15 +18,9 @@
 
     <title>${{ index.snippet.title }}$</title>
 
-    <link rel="preload" href="../fonts/FactorA-Bold.woff" as="font" type="font/woff" crossorigin>
-    <link rel="preload" href="../fonts/FactorA-Black.woff" as="font" type="font/woff" crossorigin>
-    <link rel="preload" href="../fonts/FactorA-Medium.woff" as="font" type="font/woff" crossorigin>
-
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css?">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="../css/style.css?2">
     <link rel="icon" rel='preload' href="../img/favicon.ico">
     <link rel="stylesheet" rel='preload' href="../css/aos.css">
 
@@ -47,8 +41,8 @@
     <meta name="twitter:description" content="${{ index.snippet.subtitle }}$" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content="${{ index.snippet.subtitle }}$" />
-    <meta property="og:url" content="https://www.semrush.com/lp/grow-small-business-1/${{ index.lang }}$/" />
-    <link rel="canonical" href="https://www.semrush.com/lp/grow-small-business-1/${{ index.lang }}$/" />
+    <meta property="og:url" content="https://www.semrush.com/lp/make-monday-your-best-marketing-day/${{ index.lang }}$/" />
+    <link rel="canonical" href="https://www.semrush.com/lp/make-monday-your-best-marketing-day/${{ index.lang }}$/" />
     <meta name="title" content="${{ index.snippet.title }}$" />
     <meta name="description" content="${{ index.snippet.subtitle }}$" />
 
@@ -56,106 +50,76 @@
     <meta name="twitter:image" content="${{ index.snippet.pic }}$" />
     <meta itemprop="image" content="${{ index.snippet.pic }}$" />
 
-
-
-    <!-- script -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script>
-        // Send FB cookie to cs5
-        function getDm5() {
-            var n, i = new RegExp("(_fbp|_fbc)=([^\\s;]*)", "g"),
-                o = document.cookie.match(i);
-            n = o ? "{" + o.map(n => n.split("=").map(n => '"' + n + '"').join(": ")).join(", ") + "}" : "{}";
-            return n;
-        }
+      // Send FB cookie to cs5
+      function getDm5() {
+          var n, i = new RegExp("(_fbp|_fbc)=([^\\s;]*)", "g"),
+              o = document.cookie.match(i);
+          n = o ? "{" + o.map(n => n.split("=").map(n => '"' + n + '"').join(": ")).join(", ") + "}" : "{}";
+          return n;
+      }
+      function getEmail() {
+          try {
+              return localStorage.getItem('email');
+          } catch {
+              return null
+          }
+      }
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+          'dimension5': getDm5(),
+          '&email': getEmail(),
+          'forceSSL': true,
+          'groupOfPages': 'lp:make-monday-your-best-marketing-day'
+      });
+      // trebuchet
+      (function () {
+      (window['dataLayer'] = window['dataLayer'] || []).push(arguments);
+      })('event', 'optimize.callback', {
+      callback: (variant, expId, container) =>
+          window['dataLayer'].push({
+          event: 'semrush',
+          eventCategory: 'exp.init',
+          eventAction: expId,
+          eventLabel: variant,
+          eventValue: null,
+          }),
+      });
+  </script>
+  <!-- Google Tag Manager -->
+  <script> 
+  $(window).load(function () {
+      setTimeout(function () {
+          (
+          function (w, d, s, l, i) {
+              w[l] = w[l] || [];
+              w[l].push({
+                  'gtm.start': new Date().getTime(),
+                  event: 'gtm.js'
+              });
+              var f = d.getElementsByTagName(s)[0],
+                  j = d.createElement(s),
+                  dl = l != 'dataLayer' ? '&l=' + l : '';
+              j.async = true;
+              j.src =
+                  'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+              f.parentNode.insertBefore(j, f);
+          })(window, document, 'script', 'dataLayer', 'GTM-5K82J2');
+      }, 3000);
+  });
+  </script>
+  <!-- End Google Tag Manager -->
 
-        function getEmail() {
-            try {
-                return localStorage.getItem('email');
-            } catch {
-                return null
-            }
-        }
-        window.dataLayer = window.dataLayer || [];
-        window.dataLayer.push({
-            'dimension5': getDm5(),
-            '&email': getEmail(),
-            'forceSSL': true,
-            'groupOfPages': 'lp:grow-small-business-1'
-        });
+  <!-- script -->
+  <script defer src="../../js/jquery.scrollTo.js"></script>
 
-        // trebuchet
-        (function () {
-        (window['dataLayer'] = window['dataLayer'] || []).push(arguments);
-        })('event', 'optimize.callback', {
-        callback: (variant, expId, container) =>
-            window['dataLayer'].push({
-            event: 'semrush',
-            eventCategory: 'exp.init',
-            eventAction: expId,
-            eventLabel: variant,
-            eventValue: null,
-            }),
-        });
-    </script>
+</head>
 
-    <!-- Google Tag Manager -->
-    <script> 
-        $(window).load(function () {
-            setTimeout(function () {
-                (
-                function (w, d, s, l, i) {
-                    w[l] = w[l] || [];
-                    w[l].push({
-                        'gtm.start': new Date().getTime(),
-                        event: 'gtm.js'
-                    });
-                    var f = d.getElementsByTagName(s)[0],
-                        j = d.createElement(s),
-                        dl = l != 'dataLayer' ? '&l=' + l : '';
-                    j.async = true;
-                    j.src =
-                        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-                    f.parentNode.insertBefore(j, f);
-                })(window, document, 'script', 'dataLayer', 'GTM-5K82J2');
-            }, 3000);
-        });
-    </script>
-    <!-- End Google Tag Manager -->
+<body>
+    
 
-    <!-- Optimizer code new-->
-    <style>
-        .async-hide {
-            opacity: 0 !important
-        }
-    </style>
-    <script>
-        (function (a, s, y, n, c, h, i, d, e) {
-        s.className += ' ' + y;
-        h.start = 1 * new Date;
-        h.end = i = function () {
-        s.className = s.className.replace(RegExp(' ?' + y), '')
-        };
-        (a[n] = a[n] || []).hide = h;
-        setTimeout(function () {
-        i();
-        h.end = null
-        }, c);
-        h.timeout = c;
-        })(window, document.documentElement, 'async-hide', 'dataLayer', 3000, {
-        'OPT-W5QB5XN': true
-        });
-    </script>
-    <!-- google optimize -->     
-    <script async src="https://www.googleoptimize.com/optimize.js?id=OPT-W5QB5XN"></script>
-    <!-- end google optimize -->
-  </head>
-
-  <body>
-    <script async src="https://static.semrush.com/ref-code-script/js/1.3.1/ref.js"
-        onload="ReferralCookieHandler.default()"></script>
 
     <!-- Google Tag Manager All-PPC -->
     <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5K82J2" height="0" width="0"
@@ -164,357 +128,139 @@
 
 
     <!-- main-screen -->
-    
+
     <section class="main-screen">
-      <!-- nav -->
-      <div class="nav">
+        <div class="nav">
+            <div class="container">
+                <div class="nav-info">
+                    <div class="row align-items-center justify-content-between">
+                        <!-- logo -->
+                        <div class="col-12 header-logo">
+                            <a href="https://www.semrush.com/" target="blank">
+                                <img src="../img/logo-white.svg" class="h-logo" loading="lazy" alt="logo">
+                            </a>
+                        </div>
+                        <!-- logo -->
+                        <div class="col-12 col-lg-6 header-logo__sticky">
+                            <a href="https://www.semrush.com/" target="blank">
+                                <img src="../img/logo.svg" class="h-logo" loading="lazy" alt="logo">
+                            </a>
+                        </div>
+                        <!-- logo mob-->
+                        <div class="col-2 col-md-4 header-logo__mob">
+                            <a href="https://www.semrush.com/" target="blank">
+                                <svg class="logo-mob" width="46" height="28" viewBox="0 0 46 28" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M38.3693 13.8297C38.3693 14.6369 37.9649 14.7613 36.9399 14.7613C35.8528 14.7613 35.6661 14.5747 35.5417 13.7675C35.3239 11.6865 33.9257 9.91499 31.5664 9.72997C30.8214 9.66776 30.6348 9.38778 30.6348 8.45617C30.6348 7.58678 30.7592 7.18237 31.4419 7.18237C35.5417 7.18237 38.3693 10.4749 38.3693 13.8297ZM44.3339 13.8297C44.3339 7.58678 40.1097 1 30.3548 1H10.9645C10.5732 1 10.3309 1.20466 10.3309 1.56159C10.3309 1.75642 10.4766 1.93161 10.6092 2.03476C11.3198 2.59307 12.3545 3.20705 13.7429 3.90126C15.0888 4.57418 16.1285 5.01133 17.1845 5.4403C17.62 5.61713 17.7936 5.81033 17.7936 6.06902C17.7936 6.4063 17.5562 6.62078 17.065 6.62078H1.67456C1.2194 6.62078 1 6.91385 1 7.2102C1 7.46234 1.08841 7.66373 1.3029 7.8864C2.55214 9.18967 4.53816 10.7615 7.44106 12.5772C9.98539 14.1686 13.129 15.8861 15.6225 17.0814C16.0417 17.2827 16.1874 17.5152 16.1776 17.7559C16.1661 18.0343 15.9467 18.27 15.4621 18.27H8.40705C8.00592 18.27 7.78325 18.4812 7.78325 18.8054C7.78325 18.9855 7.92897 19.2147 8.11889 19.3883C9.72342 20.8438 12.289 22.4353 15.7077 23.8908C20.2675 25.8326 24.9092 27 30.1223 27C40.0016 27 44.3339 19.6077 44.3339 13.8297ZM31.4419 22.6825C26.5956 22.6825 22.5581 18.7366 22.5581 13.8297C22.5581 8.98338 26.5956 5.10139 31.4419 5.10139C36.4127 5.10139 40.2947 8.98501 40.2947 13.8297C40.2947 18.7366 36.4127 22.6825 31.4419 22.6825Z"
+                                        fill="#FF642D" />
+                                </svg>
+                            </a>
+                        </div>
+
+                        <!-- navigation-button -->
+                        <div class="col-10 col-md-6 col-lg-4 header-button">
+                            <a href="#form" target="blank"
+                                class="line_button cta_line_button">${{ index.button }}$</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- content -->
         <div class="container">
-          <div class="nav-info">
-            <div class="nav-wrap align-items-center justify-content-center">
-              <!-- logo -->
-              <div class="col-12  header-logo">
-                <a href="https://www.semrush.com/" target="blank">
-                  <img src="../img/logo.svg" alt="" class="h-logo">       
-                </a>
-              </div>
-              <!-- logo black -->
-              <div class="col-12  col-lg-7 header-logo__black">
-                <a href="https://www.semrush.com/" target="blank"> 
-                  <img src="../img/logo.svg" alt="">           
-                </a>
-              </div>
-              <!-- logo mob-->
-              <div class="col-2 col-md-6 header-logo__mob">
-                <a href="https://www.semrush.com/" target="blank">
-                  <img src="../img/logo-mob.svg" alt="">  
-                </a>
-              </div>
-              <!-- navigation-button -->
-              <div class="col-10 col-md-6 col-lg-5 header-button">
-                <a href="https://www.semrush.com/subscribe/?offer=cuf5phow" class="line_button cta_line_button">${{ index.button }}$</a>
+            <div class="row justify-content-center content col-lg-9">
+              <div class="col-12 main-screen__text">
+                  <h1>${{ index.main.title }}$</h1>
+                  <p class="subtitle">${{ index.main.subtitle }}$</p>
+                  <a href="#form" target="blank"
+                      class="button cta_hero_button">${{ index.button }}$</a>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <!-- nav ends -->
-
-      <!-- content -->
-      <div class="container main__container">
-        <div class="content main__content">
-          <h2 class="pretitle">${{ index.main.title-1_1 }}$</h2>
-          <h2 class="mobile local">${{ index.main.title-1_2 }}$</h2>
-          <h2 class="mobile business">${{ index.main.title-1_3 }}$</h2>
-          <h2 class="desktop">${{ index.main.title-1_4 }}$</h2>
-          
-            <div class="main__wrap wrap-lg">
-              <div class="main__img">
-
-                <picture alt="" class="main__img-mob">
-                  <source srcset="../img/main-img-mob_x1.webp,
-                                  ../img/main-img-mob_x2.webp 2x" type="image/webp" />
-                  <source srcset="../img/main-img-mob_x2.png 2x" />
-                  <img src="../img/main-img-mob_x1.png" alt="" />
-                </picture>
-
-                <div class="main__img-desktop">
-                  <picture alt="">
-                    <source srcset="../img/main-img_x1.webp,
-                                    ../img/main-img_x2.webp 2x" type="image/webp" />
-                    <source srcset="../img/main-img_x2.png 2x" />
-                    <img src="../img/main-img_x1.png" alt="" />
+            <div class="row justify-content-center speakers col-lg-9">
+              <!-- 1 -->
+              <div class="col-12 col-lg-5">
+                <div class="speaker">
+                  <picture class="photo" loading="lazy" alt="" >
+                    <source srcset="../img/p-1_1x.webp,
+                    ../img/p-1_2x.webp 2x" type="image/webp" />
+                    <source srcset="../img/p-1_2x.png 2x" />
+                    <img src="../img/p-1_1x.png" alt="" class="photo" loading="lazy"/>
                   </picture>
-                </div> 
+                  <div class="speaker__text">
+                    <h6>${{ index.speakers.name-1 }}$</h6>
+                    <p>${{ index.speakers.profession-1 }}$</p>
+                  </div>
+                </div>
               </div>
-
-              <div class="main__text">
-                <picture alt="">
-                  <source srcset="../img/main-img-s_x1.webp,
-                                  ../img/main-img-s_x2.webp 2x" type="image/webp" />
-                  <source srcset="../img/main-img-s_x2.png 2x" />
-                  <img src="../img/main-img-s_x1.png" alt="" />
-                </picture>
-                <p class="main__title-2">${{ index.main.title-2 }}$</p>
-                <p class="main__text-p">${{ index.main.text }}$</p>
-                <div class="main__text-btn-wrap">
-                  <a href="https://www.semrush.com/subscribe/?offer=cuf5phow" class="button cta_main_button">${{ index.main.button }}$</a>
+              <!-- 2 -->
+              <div class="col-12 col-lg-5">
+                <div class="speaker mb-0">
+                  <picture class="photo" loading="lazy" alt="" >
+                    <source srcset="../img/p-4_1x.webp,
+                    ../img/p-4_2x.webp 2x" type="image/webp" />
+                    <source srcset="../img/p-4_2x.png 2x" />
+                    <img src="../img/p-4_1x.png" alt="" class="photo" loading="lazy"/>
+                  </picture>
+                  <div class="speaker__text">
+                    <h6>${{ index.speakers.name-2 }}$</h6>
+                    <p>${{ index.speakers.profession-2 }}$</p>
+                  </div>
                 </div>
               </div>
             </div>
-
-            
-
         </div>
-      </div>
     </section>
 
     <!-- main-screen ends -->
 
 
+    <!-- text-screen -->
 
-    <!-- trusted-screen -->
-
-    <section class="trusted-screen">
+    <section class="text-screen">
       <div class="container">
-        <h2>${{ index.trusted.title }}$</h2>
-        <div class="trusted__logos-wrap">
-          <!-- Gethuman -->
-          <div class="trusted__logo us_gethuman">
-            <img src="../img/trusted/us/gethuman.svg" alt="">
-          </div>
-          <!-- NML -->
-          <div class="trusted__logo us_nml">
-            <img src="../img/trusted/us/nml.svg" alt="">
-          </div>
-          <!-- Trophy -->
-          <div class="trusted__logo us_trophy">
-            <img src="../img/trusted/us/trophy.svg" alt="">
-          </div>
-          
-          <!-- Smokies -->
-          <div class="trusted__logo us_smokies">
-            <img src="../img/trusted/us/smokies.svg" alt="">
-          </div>
-          <!-- Shugar -->
-          <div class="trusted__logo us_sugar">
-            <img src="../img/trusted/us/sugar.svg" alt="">
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- trusted-screen ends -->
-
-
-
-    <!-- benefits-screen -->
-
-    <section class="benefits-screen screen">
-      <div class="container">
-
-        <h2>${{ index.benefits.title }}$</h2>
-
-        <div class="benefits__wrap wrap">
-          
-          <!-- 1 -->
-          <div class="benefits__item standart-item col-lg-4">
-            <img src="../img/benefits-img_1.svg" alt="">
-            <div class="standart-item__wrap">
-              <h4>${{ index.benefits.item-1_title }}$</h4>
-              <p>${{ index.benefits.item-1_text }}$</p>
-            </div>
-          </div>
-
-          <!-- 2 -->
-          <div class="benefits__item standart-item col-lg-4">
-            <img src="../img/benefits-img_2.svg" alt="">
-            <div class="standart-item__wrap">
-              <h4>${{ index.benefits.item-2_title }}$</h4>
-              <p>${{ index.benefits.item-2_text }}$</p>
-            </div>
-          </div>
-
-          <!-- 3 -->
-          <div class="benefits__item standart-item col-lg-4">
-            <img src="../img/benefits-img_3.svg" alt="">
-            <div class="standart-item__wrap">
-              <h4>${{ index.benefits.item-3_title }}$</h4>
-              <p>${{ index.benefits.item-3_text }}$</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- benefits-screen ends -->
-
-
-    <!-- overview-sreen -->
-
-    <div class="overview-screen screen">
-      <div class="container">
-        <h2 class="h2_sub">${{ index.overview.title }}$</h2>
-        <p class="subtitle">${{ index.overview.subtitle }}$</p>
-      </div>
-
-      
-      <div class="overview__wrap">
-        <div class="container wrap">
-          
-          <!-- 1 -->
-          <div class="overview__item col-lg-6">
-            <img src="../img/overview-img_1.svg" alt="">
-            <h4>${{ index.overview.item-1_title }}$</h4>
-            <p>${{ index.overview.item-1_text }}$</p>
-          </div>
-
-          <!-- 2 -->
-          <div class="overview__item col-lg-6">
-            <img src="../img/overview-img_2.svg" alt="">
-            <h4>${{ index.overview.item-2_title }}$</h4>
-            <p>${{ index.overview.item-2_text }}$</p>
-          </div>
-
-          <!-- 3 -->
-          <div class="overview__item col-lg-6">
-            <img src="../img/overview-img_3.svg" alt="">
-            <h4>${{ index.overview.item-3_title }}$</h4>
-            <p>${{ index.overview.item-3_text }}$</p>
-          </div>
-
-          <!-- 4 -->
-          <div class="overview__item col-lg-6">
-            <img src="../img/overview-img_4.svg" alt="">
-            <h4>${{ index.overview.item-4_title }}$</h4>
-            <p>${{ index.overview.item-4_text }}$</p>
-          </div>
-
-        </div>
-
-        <a href="https://www.semrush.com/subscribe/?offer=cuf5phow" class="button cta_overview_button">${{ index.overview.button }}$</a>
-
-      </div>
-    </div>
-
-    <!-- overview-screen ends -->
-
-
-
-
-    <!-- cases-screen -->
-
-    <section class="cases-screen screen">
-      
-      <div class="container">
-        <h2>${{ index.cases.title }}$</h2>
-      </div>      
-
-      <!-- 1 -->
-      <div class="cases__item first">
-        <div class="container wrap">
-          <!-- img -->
-          <div class="cases__img col-lg-6">
-            <picture alt="">
-              <source srcset="../img/cases-img-1_x1.webp,
-                              ../img/cases-img-1_x2.webp 2x" type="image/webp" />
-              <source srcset="../img/cases-img-1_x2.png 2x" />
-              <img src="../img/cases-img-1_x1.png" alt="" />
-            </picture>
-          </div>
-          <!-- text -->
-          <div class="cases__text col-lg-5">
-            <h4>${{ index.cases.item-1_title }}$</h4>
-            <p>${{ index.cases.item-1_text }}$</p>
+        <img class="shape" src="../img/shape_3.svg" loading="lazy" alt="">
+        <div class="row justify-content-start text-screen__text">
+          <div class="col-12 col-lg-10">
+            <h2>${{ index.synopsis.title }}$</h2>
+            <p class="subtitle last">${{ index.synopsis.text-1 }}$</p>
+            <h6>${{ index.synopsis.subtitle }}$</h6>
             <ul>
-              <li>${{ index.cases.item-1_li-1 }}$</li>
-              <li>${{ index.cases.item-1_li-2 }}$</li>
+              <li>
+                ${{ index.synopsis.li-1 }}$
+                <ul>
+                  <li>${{ index.synopsis.li-1_1 }}$</li>
+                  <li>${{ index.synopsis.li-1_2 }}$</li>
+                  <li>${{ index.synopsis.li-1_3 }}$</li>
+                  <li>${{ index.synopsis.li-1_4 }}$</li>
+                  <li>${{ index.synopsis.li-1_5 }}$</li>
+                  <li>${{ index.synopsis.li-1_6 }}$</li>
+                </ul>
+              </li>
+              <li>${{ index.synopsis.li-2 }}$</li>
+              <li>${{ index.synopsis.li-3 }}$</li>
             </ul>
+            <p class="subtitle">${{ index.synopsis.text-4 }}$</p>
           </div>
         </div>
-      </div> 
-
-      <!-- 2 -->
-      <div class="cases__item">
-        <div class="container wrap">
-          <!-- img -->
-          <div class="cases__img col-lg-6">
-            <picture alt="">
-              <source srcset="../img/cases-img-2_x1.webp,
-                              ../img/cases-img-2_x2.webp 2x" type="image/webp" />
-              <source srcset="../img/cases-img-2_x2.png 2x" />
-              <img src="../img/cases-img-2_x1.png" alt="" />
-            </picture>
-          </div>
-          <!-- text -->
-          <div class="cases__text col-lg-5">
-            <h4>${{ index.cases.item-2_title }}$</h4>
-            <p>${{ index.cases.item-2_text }}$</p>
-            <ul>
-              <li>${{ index.cases.item-2_li-1 }}$</li>
-              <li>${{ index.cases.item-2_li-2 }}$</li>
-            </ul>
+        <div class="row justify-content-start">
+          <div class="col-12">
+            <h2>${{ index.form.title }}$</h2>
           </div>
         </div>
-      </div> 
-
-      <!-- 3 -->
-      <div class="cases__item last">
-        <div class="container wrap">
-          <!-- img -->
-          <div class="cases__img col-lg-6">
-            <picture alt="">
-              <source srcset="../img/cases-img-3_x1.webp,
-                              ../img/cases-img-3_x2.webp 2x" type="image/webp" />
-              <source srcset="../img/cases-img-3_x2.png 2x" />
-              <img src="../img/cases-img-3_x1.png" alt="" />
-            </picture>
+        <div id="form"></div>
+        <div class="row justify-content-start form">
+          <div class="col-12">
+            <script src="//lp.semrush.com/js/forms2/js/forms2.min.js"></script>
+              <form id="mktoForm_1474"></form>
+            <script>MktoForms2.loadForm("//lp.semrush.com", "519-IIY-869", 1474);</script>
           </div>
-          <!-- text -->
-          <div class="cases__text col-lg-5">
-            <h4>${{ index.cases.item-3_title }}$</h4>
-            <p>${{ index.cases.item-3_text }}$</p>
-            <ul>
-              <li>${{ index.cases.item-3_li-1 }}$</li>
-              <li>${{ index.cases.item-3_li-2 }}$</li>
-            </ul>
-          </div>
-        </div>
-      </div> 
-    
-    </section>
-
-    <!-- cases-screen ends -->
-      
-
-
-    <!-- checks-screen -->
-
-    <section class="checks-screen screen">
-      <div class="container">
-        <h2>${{ index.checks.title }}$</h2>
-
-        <div class="checks__wrap wrap">
-          <!-- 1 -->
-          <div class="checks__item col-lg-4">
-            <img src="../img/i-check.svg" alt="">
-            <h3>${{ index.checks.item-1_title }}$</h3>
-            <p>${{ index.checks.item-1_text }}$</p>
-          </div>
-          <!-- 2 -->
-          <div class="checks__item col-lg-4">
-            <img src="../img/i-check.svg" alt="">
-            <h3>${{ index.checks.item-2_title }}$</h3>
-            <p>${{ index.checks.item-2_text }}$</p>
-          </div>
-          <!-- 3 -->
-          <div class="checks__item col-lg-4">
-            <img src="../img/i-check.svg" alt="">
-            <h3>${{ index.checks.item-3_title }}$</h3>
-            <p>${{ index.checks.item-3_text }}$</p>
-          </div>
-        </div>
-
-        <a href="https://www.semrush.com/subscribe/?offer=cuf5phow" class="button cta_checks_button">${{ index.checks.button }}$</a>
-      </div>
-    </section>
-
-    <!-- checks-screen ends -->
-
-
-
-    <!-- prefooter-screen -->
-
-    <section class="prefooter-screen screen">
-        <div class="prefooter__wrap">
-          <div class="container main__container">
-          <p class="prefooter__title title-1">${{ index.prefooter.title-1 }}$</p>
-          <p class="prefooter__title title-2">${{ index.prefooter.title-2 }}$</p>
         </div>
       </div>
     </section>
 
-    <!-- prefooter-screen ends -->
+    <!-- text-screen end -->
+
 
 
     <!-- footer starts -->
@@ -524,7 +270,7 @@
             <div class="footer">
                 <div class="footer-line__logo">
                     <a href="https://www.semrush.com/" target="_blank">
-                      <img src="../img/logo-white.svg"  class="logo-footer" width="144" height="19" loading="lazy" alt="">
+                        <img src="../img/logo.svg" width="144" height="auto" class="logo-footer" alt="">
                     </a>
                 </div>
                 <div class="regulations">
@@ -544,17 +290,32 @@
 
     <!-- footer ends -->
 
-    <script src="../js/jquery.scrollTo.min.js"></script>
-    <script src="../js/siema.js"></script>
-    <script src="../js/script.js"></script>
-    
-    
+    <!-- on success popup -->
+    <div class="on-success-popup" id="on-success-popup">
+        <div class="on-success-popup_content" id="on-success-popup_content">
+            <button id="on-success-popup_close" class="on-success-popup_close">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 32 32"
+                    style="enable-background:new 0 0 32 32;" xml:space="preserve" width="32" height="32">
+                    <rect width="22.0001" height="2.60019" transform="matrix(0.707053 -0.707055 0.707053 0.707055 7.31491 22.8584)" fill="#898D9A"/>
+                    <rect width="22.0001" height="2.60019" transform="matrix(0.707053 0.707055 -0.707053 0.707055 9.15329 7.30322)" fill="#898D9A"/>
+                </svg>
+            </button>
+            <h5 class="on-success-popup_title" >${{ index.success.title }}$</h5>
+            <p>${{ index.success.text }}$</p>
+        </div>
+    </div>
+
+    <script src="../js/script.js?6"></script>
+
 
     <!-- local analytics.js file -->
     <script src="../js/analytics.js"></script>
 
     <!-- common analytics.js file-->
     <script src="../../js/analytics.js"></script>
+    <!-- <script defer src="../../js/gdpr.js"></script> -->
+
 
     <!-- prerender -->
     <script>
@@ -565,19 +326,9 @@
             hint.href = '/signup/';
             document.head.appendChild(hint);
         }());
+
     </script>
 
-<script>
-  $(document).ready(function () {
-      AOS.init({
-          duration: 400,
-          disable: 'mobile',
-          once: true,
-      });
-  });
-
-</script>
-    
-  </body>
+</body>
 
 </html>

@@ -1,24 +1,24 @@
 /*************** FOOTER ***************/
 
 .footer-line {
-  background-color: #540099;
-  margin-top: -1px;
+  background-color: #fff;
   .footer {
     padding: 28px 0 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top: 1px solid rgba(255, 255, 255, 0.5)
+    border-top: 1px solid #E9EBEF;
   }
   .footer-line__logo {
     display: inline-block;
     padding-top: 4px;
+    // margin-right: 18%;
   }
   .regulations {
     .terms-privacy {
       font-size: 16px;
       line-height: 135%;
-      color: #fff;
+      color: #171A22;
       margin: 0 20px;
       &:hover {
         text-decoration: underline;
@@ -30,16 +30,59 @@
     font-size: 16px;
     line-height: 135%;
     text-align: right;
-    color: rgba(255, 255, 255, 0.5);
+    color:#898D9A;  
     display: inline-block;
   }
 }
 
+@media screen and (max-width: 1199.98px) {
+  .footer-line {
+    .footer {
+      .footer-line__logo {
+        
+      } 
+      .regulations {
+        .terms-privacy {
+         
+        }
+      }
+      .footer-year {
+       
+      }  
+    }
+  }  
+}
+
+@media screen and (max-width: 1024.98px) {
+  .footer-line {
+    .footer {
+      .footer-line__logo {
+        
+      } 
+      .regulations {
+        .terms-privacy {
+         
+        }
+      }
+      .footer-year {
+       
+      }  
+    }
+  }  
+}
 @media screen and (max-width: 991.98px) {
   .footer-line {
     .footer {
       .footer-line__logo {
         display: none;
+      } 
+      .regulations {
+        .terms-privacy {
+        
+        }
+      }
+      .footer-year {
+      
       }  
     }
   }  
@@ -60,7 +103,7 @@
       .footer-year {
         margin-left: 0px;  
         margin-top: 24px;
-        text-align: center;
+        
       } 
     } 
   }  

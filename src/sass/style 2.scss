@@ -1,0 +1,93 @@
+/******** секта bootstrap ******/
+@import"bootstrapgrid";
+
+/******** framework *******/
+@import"otherstyles";
+
+/******** header footer *******/
+@import"headerfooter";
+
+
+
+h1 {
+  font-size: 30px;
+  line-height: 1.2em;
+}
+a.button {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+//**************  main-screen  **************//
+
+.main-screen {
+  background: #421983;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 50px;
+  .content {
+    padding-top: 90px;
+    text-align: center;
+    h1 {
+      color: #fff;
+      text-align: center;
+    }
+    a.button {
+      width: 100%;
+      margin-bottom: 50px;
+    }
+  }
+}
+.header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 25px 0;
+  display: flex;
+  justify-content: center;
+  a {display: inline-block;}
+}
+.h-logo {
+  width: 180px;
+}
+.main__date {
+  color: #FFFF00;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.main__time {
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.5em;
+  margin-bottom: 32px;
+}
+.main__person {
+  display: flex;
+  flex-wrap: wrap;
+  & + & {margin-top: 30px;}
+  &-img {
+    width: 75px;
+    height: 75px;
+    margin-right: 20px;
+  }
+  &-text {
+    text-align: left;
+    flex:1;
+  }
+  &-name {
+    font-size: 24px;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: #fff;
+  }
+  &-role {
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #fff;
+  }
+}
+
+
