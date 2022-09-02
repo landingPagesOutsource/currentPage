@@ -1,6 +1,7 @@
 {
   "lang": "en",
 
+<<<<<<< HEAD
   "button": "Register Now",
 
   "snippet": {
@@ -41,6 +42,68 @@
 
   "form": {
     "title": "Join the webinar"
+=======
+  "button": "try semrush free",
+
+  "snippet": {
+    "title": "Grow Your Small Business Faster with Semrush",
+    "subtitle": "For everything your small business needs to grow, there’s Semrush. Save time and money with an all-in-one marketing platform.",
+    "pic": "https://static.semrush.com/file/image/sharing_pictures/grow-small-business-1_EN.png"
+  },
+
+  "main": {
+    "title-1_1": "YOU’RE growing more than",
+    "title-1_2": "than A",
+    "title-1_3": "b<span>u</span>siness",
+    "title-1_4": "a b<span>u</span>siness",
+    "title-2": "Let’s make your<br>dreams a reality",
+    "text": "For everything your small business needs to grow, there’s Semrush. Save time and money with an all&#8209;in&#8209;one marketing platform.",
+    "button": "try it free"
+  },
+
+  "tools": {
+    "item-1_title": "Help customers find your business online",
+    "item-1_text": "Get seen on Google, attract more customers, and get them to your site.",
+    "item-1_button": "learn more about seo",
+
+    "item-2_title": "Gain loyal, local customers",
+    "item-2_text": "Drive visits to your business —online and in-store.",
+    "item-2_button": "Reach your local audience",
+
+    "item-3_title": "<i class='whitespace1200'>Challenge the competition</i>",
+    "item-3_text": "See what your competitors are doing online to create a unique strategy that puts you one step ahead.",
+    "item-3_button": "X-ray your competition",
+
+    "item-4_title": "Be the talk of your town",
+    "item-4_text": "Access free social media tools<br class='br1200'>to get more people talking about your brand.",
+    "item-4_button": "Amp up your social media",
+
+    "item-5_title": "Elevate your exposure on&nbsp;Amazon",
+    "item-5_text": "Showcase your products, raise your brand visibility, and increase cash flow.",
+    "item-5_button": "Win more Amazon sales",
+
+    "item-6_title": "Run smarter advertising campaigns",
+    "item-6_text": "Get tools that make it easy to set up and run effective ad campaigns.",
+    "item-6_button": "Spend your dollars wisely"
+
+  },
+
+  "help": {
+    "title": "Helping small businesses make a big impact",
+    "subtitle": "Semrush’s platform helps business owners around the world grow to their full potential",
+    "text": "Learn how <b>Pastreez bakery</b> used Semrush to rank #1 on Google and supercharge their growth",
+    "button": "Learn more"
+  },
+
+  "cta": {
+    "title": "Do big things with your small business",
+    "button": "Try it free"
+  },
+
+  "prefooter": {
+    "title-1": "YOU’RE growing more than",
+    "title-2": "a b<span>u</span>siness"
+>>>>>>> ee44c34a56d894ca7c29e40cb1511e4076b2c774
   },
 
   "footer": {
