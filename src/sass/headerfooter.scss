@@ -1,24 +1,24 @@
 /*************** FOOTER ***************/
 
 .footer-line {
-  background-color: #fff;
+  background-color: #540099;
+  margin-top: -1px;
   .footer {
     padding: 28px 0 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top: 1px solid #E9EBEF;
+    border-top: 1px solid rgba(255, 255, 255, 0.5)
   }
   .footer-line__logo {
     display: inline-block;
     padding-top: 4px;
-    // margin-right: 18%;
   }
   .regulations {
     .terms-privacy {
       font-size: 16px;
       line-height: 135%;
-      color: #171A22;
+      color: #fff;
       margin: 0 20px;
       &:hover {
         text-decoration: underline;
@@ -30,59 +30,16 @@
     font-size: 16px;
     line-height: 135%;
     text-align: right;
-    color:#898D9A;  
+    color: rgba(255, 255, 255, 0.5);
     display: inline-block;
   }
 }
 
-@media screen and (max-width: 1199.98px) {
-  .footer-line {
-    .footer {
-      .footer-line__logo {
-        
-      } 
-      .regulations {
-        .terms-privacy {
-         
-        }
-      }
-      .footer-year {
-       
-      }  
-    }
-  }  
-}
-
-@media screen and (max-width: 1024.98px) {
-  .footer-line {
-    .footer {
-      .footer-line__logo {
-        
-      } 
-      .regulations {
-        .terms-privacy {
-         
-        }
-      }
-      .footer-year {
-       
-      }  
-    }
-  }  
-}
 @media screen and (max-width: 991.98px) {
   .footer-line {
     .footer {
       .footer-line__logo {
         display: none;
-      } 
-      .regulations {
-        .terms-privacy {
-        
-        }
-      }
-      .footer-year {
-      
       }  
     }
   }  
@@ -103,7 +60,7 @@
       .footer-year {
         margin-left: 0px;  
         margin-top: 24px;
-        
+        text-align: center;
       } 
     } 
   }  

@@ -8,7 +8,6 @@
 </head>
 
 <body>
-    
     <script type="text/javascript">
         var lang = navigator.language || navigator.browserLanguage;
         if (lang) {
@@ -21,15 +20,9 @@
         }
 
         function setLocation(lang) {
-            if (location.host === 'mentions.semrush.com') {
-                location.href = 'https://mentions.semrush.com/' + lang + '/';
-            } else {
-                location.href = location.href.substring(0, location.href.lastIndexOf('/') + 1) + lang + '/';
-            }
+            location.href = location.href.substring(0, location.href.lastIndexOf('/') + 1) + lang + '/';
         }
 
-    </script>
-    <script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=en-GB" type="text/javascript">
     </script>
     <script>
         if (!lang) {
